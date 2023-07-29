@@ -1,5 +1,5 @@
 ---
-title: "Talk template" 
+title: "Reproducibility in neuroimaging: What is the problem?" 
 author: Russ Poldrack
 institute: Stanford University
 title-slide-attributes:
@@ -7,7 +7,7 @@ title-slide-attributes:
     data-background-opacity: "0.5"
 format:
   revealjs: 
-    footer: "https://poldrack.github.io/talks-template/"
+    footer: "https://poldrack.github.io/talks-Neurohackademy/"
     slide-number: true
     chalkboard: 
       buttons: false
@@ -17,4 +17,375 @@ format:
     width: 1920
 ---
 
-## Template slide
+##  {.centered-bigger}
+
+A search for “fMRI” for FY2020 NIH grants finds:
+
+1218 matching grants
+
+$552M total costs
+
+##
+
+![](./images/nih_wordcloud.png){.absolute top="0%" left="15%" height="80%"}
+
+## {.centered-bigger}
+
+What is the brain dysfunction in major depression?
+
+Meta-analysis of 99 published studies
+
+![](./images/muller_2017_figure2.png){.absolute top="20%" left="10%" height="75%"}
+
+::: {.absolute top=95% left=0% style="font-size: 0.8em; text-align: left;"}
+Muller et al, 2017, *JAMA Psychiatry*
+:::
+
+##
+
+![](./images/muller_title.png){.absolute top="10%" left="00%" height="40%"}
+
+![](./images/muller_abstract.png){.absolute top="50%" left="00%" height="40%"}
+
+##
+
+![](./images/nih_headline_suicide.png){.absolute top="10%" left="00%" height="80%"}
+
+##
+
+![](./images/nih_headline_suicide.png){.absolute top="10%" left="00%" height="80%"}
+
+![](./images/suicide_pattern.png){.absolute top="30%" left="50%" height="60%"}
+
+##
+
+![](./images/cmu_press_release.png){.absolute top="00%" left="20%" height="90%"}
+
+##
+
+![](./images/just_retraction.png){.absolute top="00%" left="0%" width="100%"}
+
+##
+
+![](./images/ha_culkin.jpg){.absolute top="00%" left="30%" height="60%"}
+
+::: {.absolute top=70% left=22% style="font-size: 1.5em; text-align: center;"}
+We seem to have created quite a mess.
+
+How can we fix it?
+
+::: 
+
+## {data-background-image="images/sunlight_disinfectant.jpg" data-background-opacity=".35"}
+
+::: {.absolute top=40% left=8% style="font-size: 2em; text-align: center;"}
+"Sunlight is said to be the best disinfectant"
+
+(Louis Brandeis)
+::: 
+
+## Towards an ecosystem for open and reproducible neuroscience
+
+![](images/openneuro_landing.png){.absolute top="20%" left="3%" width="45%"}
+
+![](images/nipreps.jpg){.absolute top="20%" left="50%" width="50%"}
+
+
+## Designing a more reproducible scientific enterprise
+
+![](images/papercutter.png){.absolute top="20%" left="0%" width="45%"}
+
+## Designing a more reproducible scientific enterprise
+
+![](images/papercutter.png){.absolute top="20%" left="0%" width="45%"}
+
+![](images/norman_cover.png){.absolute top="20%" left="60%" width="30%"}
+
+
+##
+
+![](images/fooling_ourselves.png){.absolute top="00%" left="20%" height="80%"}
+
+
+::: {.absolute top=85% left=23% style="font-size: 1.2em; text-align: center;"}
+82 | NATURE | VOL 526 | 8 OCTOBER 2015
+:::
+
+## Improving the choice architecture of science
+
+
+
+:::: {.columns}
+::: {.column width="50%"}
+* Choice architecture
+  * particular set of features that drive people toward or away from particular choices
+* Nudges
+  * Improving incentives
+  * Using the power of defaults
+  * Providing feedback
+  * Expecting and prevent errors
+:::
+::::
+
+
+![](images/nudge.png){.absolute top="10%" left="60%" height="70%"}
+
+##
+
+![](images/ioannidis_title.png){.absolute top="00%" left="0%" width="100%"}
+![](images/ioannidis_date.png){.absolute top="40%" left="0%" width="100%"}
+
+::: {.absolute top=55% left=0% style="font-size: 1.2em; text-align: left;"}
+- The smaller the studies conducted in a scientific field, the less likely the research findings are to be true. 
+:::
+
+## Neuroscience research is badly underpowered
+
+![](images/button_title.png){.absolute top="20%" left="0%" width="40%"}
+![](images/button_journal.png){.absolute top="45%" left="5%" width="30%"}
+![](images/button_figure.png){.absolute top="55%" left="0%" width="45%"}
+
+
+![](images/dumas_title.png){.absolute top="10%" left="55%" height="35%"}
+![](images/dumas_figure.png){.absolute top="50%" left="50%" height="50%"}
+
+
+## Low power -> unreliable science
+
+:::: {.columns}
+::: {.column width="50%"}
+Positive Predictive Value (PPV): The probability that a positive result is true
+:::
+::: {.column width="50%"}
+Winner’s Curse: overestimation of effect sizes for significant results
+:::
+::::
+![](images/ppv_formula.png){.absolute top="20%" left="00%" width="50%"}
+
+![](images/ppv_by_power.png){.absolute top="35%" left="00%" width="40%"}
+
+![](images/winners_curse.png){.absolute top="30%" left="50%" width="40%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Button et al, 2013
+:::
+
+## Small samples = high instability of statistical estimates
+
+![](images/schonbrodt.png){.absolute top="15%" left="18%" height="70%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Schonbrodt & Perugini, 2013
+:::
+
+
+## 
+
+![](images/marek.png){.absolute top="0%" left="17%" height="85%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Marek et al., 2022
+:::
+
+## Small samples + publication bias: the case of candidate genes
+
+![](images/molendijk_title.png){.absolute top="10%" left="0%" height="20%"}
+
+![](images/molendijk_figure.png){.absolute top="30%" left="30%" height="60%"}
+
+## Candidate gene associations fail in well-powered GWAS
+
+![](images/stein_plot.png){.absolute top="20%" left="60%" width="35%"}
+
+![](images/stein_title.png){.absolute top="10%" left="0%" width="80%"}
+
+::: {.absolute top=25% left=1% style="text-align: left;"}
+Jason stein et al. for the ENIGMA Consortium
+:::
+
+![](images/stein_journal.png){.absolute top="32%" left="1%" width="40%"}
+
+::: {.absolute top=40% left=1% width=50% style="font-size: 1.5em; text-align: left;"}
+"In general, previously identified poly­morphisms associated with hippocampal volume showed little association in our meta­-analysis (BDNF, TOMM40, CLU, PICALM, ZNF804A, COMT, DISC1, NRG1, DTNBP1), nor did SNPs previously associated with schizophrenia or bipolar disorder"
+:::
+
+## How well powered are fMRI studies?
+
+![](images/fmri_power_2020.png){.absolute top="10%" left="5%" width="80%"}
+
+
+::: {.absolute top=75% left=0% style="text-align: left;"}
+- Median study in 2020 (n=30/group) was powered to find a single 200 voxel activation with d~0.73
+- Is that plausible?
+:::
+
+
+::: {.absolute top=90% left=0% style="text-align: center;"}
+Updated from Poldrack et al., 2017
+:::
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+![](images/effect_size_pt2.png){.absolute top="15%" left="45%" height="25%"}
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+![](images/effect_size_pt2.png){.absolute top="15%" left="45%" height="25%"}
+
+![](images/effect_size_pt3.png){.absolute top="55%" left="45%" height="35%"}
+
+## Estimating realistic effect sizes
+
+![](images/effect_size_arrows.png){.absolute top="38%" left="45%" height="20%"}
+
+
+![](images/effect_size_pt1.png){.absolute top="15%" left="0%" height="80%"}
+
+![](images/effect_size_pt2.png){.absolute top="15%" left="45%" height="25%"}
+
+![](images/effect_size_pt3.png){.absolute top="55%" left="45%" height="35%"}
+
+## What are realistic effect sizes for fMRI?
+
+![](images/effect_size_plot.png){.absolute top="10%" left="5%" height="75%"}
+
+::: {.absolute top=90% left=0% style="text-align: center;"}
+Poldrack et al., 2017, *Nature Reviews Neuroscience*
+:::
+
+## Depression studies from Muller et al.
+
+![](images/muller_n_by_year_sufficientN.png){.absolute top="10%" left="0%" width="50%"}
+
+::: {.absolute top=17% left=50% style="text-align: left;"}
+**Authors must collect at last 20 observations per cell or else provide a compelling cost-of-data-collection justification.** This requirement offers extra protection for the first requirement. Samples smaller than 20 per cell are simply not powerful enough to detect most effects, and so there is usually no good reason to decide in advance to collect such a small number of observations. Smaller samples, it follows, are much more likely to reflect interim data analysis and a flexible termination rule (Simmons et al., 2011)
+:::
+
+## Small samples -> variable estimates of predictive accuracy
+
+![](images/varoquaux_variability.png){.absolute top="10%" left="12%" height="75%"}
+
+::: {.absolute top=90% left=0% style="text-align: left;"}
+Varoquaux, 2018
+:::
+
+## Small samples + publication bias -> inflated accuracy estimates
+
+![](images/varoquaux_decline.png){.absolute top="10%" left="12%" height="75%"}
+
+::: {.absolute top=90% left=0% style="text-align: left;"}
+Varoquaux, 2018
+:::
+
+## Doing well-powered science as a trainee
+
+![](images/costs_title.png){.absolute top="10%" left="0%" height="35%"}
+
+::: {.absolute top=47% left=0% style="text-align: left;"}
+
+- Underpowered science is futile, but many ECRs don’t have resources to do sufficiently powered studies
+- “if you can’t answer the question you love, love the question you can” (Kanwisher, 2017)
+- Pivots:
+  - Collaborate
+  - Use shared data
+  - Focus on theory/computational modeling
+
+:::
+
+## A golden age of data sharing
+
+![](images/data_sharing.png){.absolute top="10%" left="0%" width="100%"}
+
+##
+
+![](images/ioannidis_title.png){.absolute top="00%" left="0%" width="100%"}
+![](images/ioannidis_date.png){.absolute top="40%" left="0%" width="100%"}
+
+::: {.absolute top=55% left=0% style="font-size: 1.2em; text-align: left;"}
+- The greater the flexibility in designs, definitions, outcomes, and analytical modes in a scientific field, the less likely the research findings are to be true. 
+:::
+
+## 
+
+![](images/processing_options.png){.absolute top="0%" left="15%" height="87%"}
+
+::: {.absolute top=90% left=35% style="text-align: left;"}
+Poldrack et al., 2017
+:::
+
+##
+
+![](images/carp_secret_title.png){.absolute top="0%" left="0%" height="15%"}
+![](images/carp_secret_journal.png){.absolute top="15%" left="0%" height="5%"}
+![](images/carp_secret_plots.png){.absolute top="20%" left="5%" width="85%"}
+
+::: {.absolute top=80% left=0% width="100%" style="text-align: center;"}
+"data collection and analysis methods were highly flexible across studies, with nearly as many unique analysis pipelines as there were studies in the sample [241]."
+:::
+
+## 
+
+![](images/carp_variability_title.png){.absolute top="0%" left="0%" height="25%"}
+![](images/carp_variability_result.png){.absolute top="30%" left="5%" width="85%"}
+
+## Machine learning can make it worse
+
+
+![](images/skocik_title.png){.absolute top="10%" left="0%" height="25%"}
+![](images/skocik_plots.png){.absolute top="40%" left="50%" width="50%"}
+
+::: {.absolute top=40% left=0% width="50%" style="text-align: left;"}
+"In this article, we use Support Vector Machine (SVM) classifiers, and genetic algorithms to demonstrate the ease by which overfitting can occur, despite the use of cross validation. We demonstrate that comparable and non-generalizable results can be obtained on informative and non-informative (i.e. random) data by iteratively modifying hyperparameters in seemingly innocuous ways."
+:::
+
+## It's not just fMRI
+![](images/luck_title.png){.absolute top="10%" left="0%" height="35%"}
+![](images/luck_names.png){.absolute top="45%" left="0%" height="5%"}
+
+
+::: {.absolute top=50% left=0% width="100%" style="text-align: left;"}
+The purpose of this paper is to demonstrate how common and seemingly innocuous methods for quantifying and analyzing ERP effects can lead to very high rates of significant but bogus effects, with the likelihood of obtaining at least one such bogus effect exceeding 50% in many experiments. 
+:::
+
+## Improving reproducibility through pre-registration
+
+:::: {.columns}
+::: {.column width="50%"}
+- Register analysis plan prior to accessing data
+    - Preferably with code based on analysis of simulated data
+- This does not prevent exploratory analysis
+    - But planned and exploratory analyses should be clearly delineated in the paper
+- If the preregistration commits you to something that you learn is bad, you can always deviate
+  - as long as you are explicit in the paper
+:::
+::::
+
+![](images/mriqc_prereg.png){.absolute top="15%" left="55%" width="45%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html
+:::
+
+##
+
+:::: {.columns}
+::: {.column width="40%"}
+- The requirement for clinical trial registration was associated with many more null effects
+- This is a “cost” under the current incentives to publish
+
+:::
+::::
+
+![](images/kaplan_irvin.png){.absolute top="0%" left="40%" height="85%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Kaplan & Irvin, 2015
+:::

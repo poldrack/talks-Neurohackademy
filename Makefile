@@ -1,5 +1,5 @@
 # This tag should match the release tag in Github
-TAG = "Topic_Venue_month_day_year"
+TAG = "Reproducibility_Neurohackademy_August_7_2023"
 
 all: render-talk push-talk render-pdf push-pdf render-site push-site
 
@@ -11,6 +11,8 @@ render-talk:
 	# sed -i.bak 's-LICENSE-talk-' docs/talk/index.html
 
 push-talk:
+	python setup_redirect.py
+	git add docs/index.html
 	-git add docs/talk/*
 	-git add docs/talk/images/*
 	-git add talk/images/*
