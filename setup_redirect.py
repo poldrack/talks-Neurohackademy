@@ -15,7 +15,7 @@ if len(urls) == 0:
 url = urls[0]
 url_split = url.split("/")
 
-talk_url = f"http://poldrack.github.io/{url_split[1].split('.')[0]}/talks/talk.html"
+talk_url = f"http://poldrack.github.io/{url_split[1].split('.')[0]}/talk/talk.html"
 
 redirect = f"""<!DOCTYPE html>
 <html>
