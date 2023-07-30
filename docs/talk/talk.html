@@ -664,6 +664,453 @@ Russ Poldrack
 <div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
 <p>Kaplan &amp; Irvin, 2015</p>
 </div>
+</section>
+<section id="section-18" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
+<p>Pre-registration prevents p-hacking but does not eliminate analytic variability<br>
+<br>
+How variable are neuroimaging analysis workflows in the wild?<br>
+<br>
+What is the effect on scientific inferences?</p>
+</div>
+</section>
+<section id="section-19" class="slide level2">
+<h2></h2>
+<p><img data-src="images/narps_group.png" class="absolute" style="top: 0%; left: 10%; height: 90%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="data-collection-mixed-gambles-task" class="slide level2">
+<h2>Data collection: Mixed gambles task</h2>
+<ul>
+<li>Functional MRI data for 108 subjects collected at Tel Aviv University</li>
+</ul>
+<p><img data-src="images/narps_task.png" class="absolute" style="top: 20%; left: 10%; height: 70%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="study-recruitment" class="slide level2">
+<h2>Study recruitment</h2>
+<ul>
+<li>Analysis teams recruited via social media and conferences
+<ul>
+<li>Up to 3 people each</li>
+<li>Signed non-disclosure agreement</li>
+<li>Offered co-authorship on initial paper</li>
+</ul></li>
+<li>Raw dataset (~400GB) distributed to 82 teams via Globus</li>
+<li>Teams given ~3 months to provide Y/N answers to 9 hypothesis tests:
+<ul>
+<li>Is there significant activation in <brain area=""> for <feature of="" experimental="" design="">?</feature></brain></li>
+</ul></li>
+<li>Using their standard analysis workflow
+<ul>
+<li>Only restriction was that analysis should include whole brain</li>
+</ul></li>
+</ul>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="results-collection" class="slide level2">
+<h2>Results collection</h2>
+<ul>
+<li>Received final results from 70 teams</li>
+<li>Teams reported their yes/no decisions for each hypothesis
+<ul>
+<li>Also uploaded the whole-brain statistical maps before and after thresholding</li>
+</ul></li>
+</ul>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="how-variable-are-workflows-in-the-wild" class="slide level2">
+<h2>How variable are workflows in the wild?</h2>
+<p><img data-src="images/cobidas_title.png" class="absolute" style="top: 20%; left: 10%; width: 70%; "></p>
+<div class="absolute" style="text-align: center;top: 55%; width: 100%; ">
+<ul>
+<li>Teams provided a detailed written description of analysis workflows</li>
+<li>No 2 teams used an identical workflow</li>
+<li>Even with detailed written description it was often impossible to tell exactly what was done!</li>
+</ul>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="what-is-the-effect-of-analytic-variability-on-outcomes" class="slide level2">
+<h2>What is the effect of analytic variability on outcomes?</h2>
+<p><img data-src="images/narps_outcomes.png" class="absolute" style="top: 10%; left: 20%; height: 60%; "></p>
+<div class="absolute" style="top: 75%; ">
+<ul>
+<li>Across teams there were 33 different patterns of outcomes</li>
+<li>For any hypothesis, there are at least 4 workflows that can give a positive result</li>
+</ul>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="variability-of-whole-brain-results" class="slide level2">
+<h2>Variability of whole-brain results</h2>
+<div class="absolute" style="font-size: 1.4em; text-align: center;top: 15%; width: 100%; ">
+<p>Proportion of teams with activity in each voxel</p>
+</div>
+<p><img data-src="images/narps_wholebrain.png" class="absolute" style="top: 30%; left: 15%; width: 70%; "></p>
+<div class="absolute" style="font-size: 1.4em; text-align: center;top: 70%; width: 100%; ">
+<p>Maximum overlap for all hypotheses: 76%</p>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="section-20" class="slide level2">
+<h2></h2>
+<p><img data-src="images/narps_table.png" class="absolute" style="top: 20%; left: 0%; width: 100%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="section-21" class="slide level2">
+<h2></h2>
+<p><img data-src="images/narps_corrmap1.png" class="absolute" style="top: 0%; left: 0%; height: 90%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="section-22" class="slide level2">
+<h2></h2>
+<p><img data-src="images/narps_corrmap2.png" class="absolute" style="top: 0%; left: 0%; height: 90%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="meta-analysis-across-groups-shows-reliable-findings" class="slide level2">
+<h2>Meta-analysis across groups shows reliable findings</h2>
+<p><img data-src="images/narps_meta.png" class="absolute" style="top: 10%; left: 8%; height: 80%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>Botvinik-Nezer et al., 2020, <em>Nature</em></p>
+</div>
+</section>
+<section id="how-to-improve-analytic-reproducibility" class="slide level2">
+<h2>How to improve analytic reproducibility</h2>
+<p><img data-src="images/elife_multi_analyst.png" class="absolute" style="top: 10%; left: 0%; height: 30%; "> <img data-src="images/blind_analysis.png" class="absolute" style="top: 50%; left: 0%; height: 45%; "> <img data-src="images/simulated_data_gelman.png" class="absolute" style="top: 30%; left: 50%; width: 45%; "></p>
+</section>
+<section id="section-23" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
+<p>How many of you have written computer code in the course of your research?</p>
+</div>
+</section>
+<section id="section-24" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
+<p>How many of you have been trained in software engineering?</p>
+</div>
+</section>
+<section id="section-25" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
+<p>How many of you have ever written a test for your code?</p>
+</div>
+</section>
+<section id="software-errors-are-a-threat-to-reproducibility" class="slide level2">
+<h2>Software errors are a threat to reproducibility</h2>
+<p><img data-src="images/chang_abstracts.png" class="absolute" style="top: 20%; left: 15%; height: 80%; "></p>
+</section>
+<section id="section-26" class="slide level2">
+<h2></h2>
+<p><img data-src="images/chang_retraction.png" class="absolute" style="top: 0%; left: 10%; height: 100%; "></p>
+</section>
+<section id="small-errors-can-have-big-effects" class="slide level2">
+<h2>Small errors can have big effects</h2>
+<div class="absolute" style="font-size: 1.5em;top: 10%; left: 0%; height: 70%; ">
+<pre><code># 23-class classification problem
+
+skf=StratifiedKFold(labels,8)
+
+if trainsvm:
+    pred=N.zeros(len(labels))
+    for train,test in skf:
+        clf=LinearSVC()
+        clf.fit(data[train],labels[train])
+        pred[test]=clf.predict(data[test])</code></pre>
+</div>
+<div class="absolute" style="font-size: 1.5em;top: 65%; left: 0%; height: 70%; ">
+<p><strong>Results: 93% accuracy</strong></p>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>http://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html</p>
+</div>
+</section>
+<section id="small-errors-can-have-big-effects-1" class="slide level2">
+<h2>Small errors can have big effects</h2>
+<div class="absolute" style="font-size: 1.5em;top: 10%; left: 0%; height: 70%; ">
+<pre><code># 23-class classification problem
+
+skf=StratifiedKFold(labels,8)
+
+if trainsvm:
+    pred=N.zeros(len(labels))
+    for train,test in skf:
+        clf=LinearSVC()
+        clf.fit(data[train],labels[train])
+        pred[test]=clf.predict(data[test])</code></pre>
+</div>
+<div class="absolute" style="font-size: 1.5em;top: 65%; left: 0%; height: 70%; ">
+<p><strong>Results: 93% accuracy</strong></p>
+</div>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>http://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html</p>
+</div>
+<div class="absolute" style="font-size: 1.5em;top: 47%; left: 65%; ">
+<pre><code>data[:,train]
+data[:,test]</code></pre>
+</div>
+<div class="absolute" style="font-size: 1.5em;top: 65%; left: 65%; height: 70%; ">
+<p><strong>Results: 53% accuracy</strong></p>
+</div>
+</section>
+<section id="software-errors-hit-home" class="slide level2">
+<h2>Software errors hit home</h2>
+<p><img data-src="images/error1.png" class="absolute" style="top: 10%; left: 0%; width: 65%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>http://reproducibility.stanford.edu/coding-error-postmortem/</p>
+</div>
+</section>
+<section id="software-errors-hit-home-1" class="slide level2">
+<h2>Software errors hit home</h2>
+<p><img data-src="images/error2.png" class="absolute" style="top: 10%; left: 0%; width: 67%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>http://reproducibility.stanford.edu/coding-error-postmortem/</p>
+</div>
+</section>
+<section id="software-errors-hit-home-2" class="slide level2">
+<h2>Software errors hit home</h2>
+<p><img data-src="images/error3.png" class="absolute" style="top: 10%; left: 0%; width: 67%; "></p>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>http://reproducibility.stanford.edu/coding-error-postmortem/</p>
+</div>
+</section>
+<section id="bug-hacking" class="slide level2">
+<h2>Bug-hacking</h2>
+<p><img data-src="images/bug_hacking.png" class="absolute" style="top: 10%; left: 0%; width: 100%; "></p>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 85%; width: 100%; ">
+<ul>
+<li>Bugs that confirm our predictions are less likely to be uncovered than bugs that disconfirm them</li>
+</ul>
+</div>
+</section>
+<section id="the-principle-of-assumed-error" class="slide level2">
+<h2>The principle of assumed error</h2>
+<ul>
+<li>Whenever you find a seemingly good result (e.g.&nbsp;one that fits your predictions), assume that it occurred due to an error in your code</li>
+<li>Protects from “bug hacking”</li>
+</ul>
+<div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
+<p>http://www.russpoldrack.org/2016/08/the-principle-of-assumed-error.html</p>
+</div>
+</section>
+<section id="coding-for-reproducibility" class="slide level2">
+<h2>Coding for reproducibility</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>High quality code should be:
+<ul>
+<li>Readable</li>
+<li>Robust</li>
+<li>Modular</li>
+<li>Well-tested</li>
+</ul></li>
+<li>Coding is a craft
+<ul>
+<li>The only way to improve one’s skills is through consistent and deliberate practice</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="images/software_carpentry.png" class="absolute" style="top: 20%; left: 60%; width: 30%; "></p>
+<div class="absolute" style="font-size: 1.3em; text-align: center;top: 55%; left: 55%; ">
+<p>https://software-carpentry.org</p>
+</div>
+</section>
+<section id="coding-style" class="slide level2">
+<h2>Coding style</h2>
+<ul>
+<li>“code is read much more often than it is written” so readability counts (G. van Rossum)</li>
+<li>Nearly all languages have conventions for coding style
+<ul>
+<li>Following them makes your code easier for others to understand</li>
+<li>“others” includes your future self!</li>
+</ul></li>
+<li>There are also language-independent principles of software design</li>
+</ul>
+<p><img data-src="images/coding_books.png" class="absolute" style="top: 50%; left: 0%; width: 100%; "></p>
+</section>
+<section id="commenting-is-not-a-magic-balm-for-bad-code" class="slide level2">
+<h2>Commenting is not a magic balm for bad code</h2>
+<ul>
+<li>Comments should help the reader to know as much as the writer knows about the code
+<ul>
+<li>Should express intention when it’s not obvious</li>
+</ul></li>
+<li>“Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments” (Robert Martin, Clean Code)</li>
+<li>“Don’t comment bad code — rewrite it” (Kernighan &amp; Plaugher)</li>
+</ul>
+</section>
+<section id="code-quality-analysis-and-repair" class="slide level2">
+<h2>Code quality analysis and repair</h2>
+<ul>
+<li>Static analysis (pylint, flake8, etc)
+<ul>
+<li>Checks for errors and adherence to Python style guidelines</li>
+<li>Can be run automatically within editor any time code is saved</li>
+</ul></li>
+<li>Automated formatting tools can help ensure good code formatting
+<ul>
+<li>black/blue for Python</li>
+</ul></li>
+<li>Collaborator: “Fixing the style made your code so much easier to read!”</li>
+</ul>
+<p><img data-src="images/pylint.png" class="absolute" style="top: 40%; left: 0%; width: 80%; "></p>
+</section>
+<section id="code-review" class="slide level2">
+<h2>Code review</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Linus’s law
+<ul>
+<li>“given enough eyeballs, all bugs are shallow.”</li>
+</ul></li>
+<li>If no humans are available to review, AI tools can be helpful</li>
+</ul>
+</div>
+</div>
+<p><img data-src="images/petre_title.png" class="absolute" style="top: 0%; left: 55%; width: 40%; "> <img data-src="images/petre_abstract.png" class="absolute" style="top: 26%; left: 55%; height: 60%; "></p>
+</section>
+<section id="software-testing" class="slide level2">
+<h2>Software testing</h2>
+<ul>
+<li>Smoke tests
+<ul>
+<li>Does everything run without exploding?</li>
+</ul></li>
+<li>Sanity checks
+<ul>
+<li>Are values within reasonable ranges?</li>
+</ul></li>
+<li>Unit tests
+<ul>
+<li>Does the function do what it is supposed to do?</li>
+</ul></li>
+</ul>
+<div class="absolute" style="text-align: center;top: 75%; left: 0%; width: 100%; ">
+<p>https://github.com/poldrack/pytest_tutorial</p>
+</div>
+</section>
+<section id="section-27" class="slide level2">
+<h2></h2>
+<p><img data-src="images/plosone_title.png" class="absolute" style="top: 0%; left: 0%; width: 50%; "></p>
+<div class="absolute" style="font-size: 1.2em; text-align: left;top: 40%; left: 0%; width: 100%; ">
+<p>The dataset included two notable age outliers (reported ages 5 and 32757).</p>
+<p>Specifically, the statement on page 9 “age turned out not to correlate with any of the indicator variables” is incorrect. It should read instead “age correlated significantly with 3 latent indicator variables (Vaccinations: .219, p &lt; .0001; Conservatism: .169, p &lt; .001; Conspiracist ideation: -.140, maximum likelihood p &lt; .0001, bootstrapped p = .004), and straddled significance for a fourth (Free Market: .08, p%.05).”</p>
+</div>
+</section>
+<section id="section-28" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 1.5em;top: 10%; left: 0%; height: 70%; ">
+<pre><code>In [1]: age=32757
+
+In [2]: assert age&gt;12 and age&lt;120
+------------------------------------------------
+AssertionError                            Traceback (most recent call last)
+&lt;ipython-input-2-37de876b5fda&gt; in &lt;module&gt;()
+----&gt; 1 assert age&gt;12 and age&lt;120
+
+AssertionError:</code></pre>
+</div>
+</section>
+<section id="test-driven-development" class="slide level2">
+<h2>Test-driven development</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Write test cases based on the intended behavior of the code</li>
+<li>Run tests and continue to modify code until the tests pass</li>
+<li>Add tests for any new requirements</li>
+</ul>
+</div>
+</div>
+<p><img data-src="images/TDD-1-640x770.png" class="absolute" style="top: 0%; left: 55%; width: 40%; "></p>
+<div class="absolute" style="font-size: 0.8em;top: 90%; left: 55%; ">
+<p>https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd</p>
+</div>
+</section>
+<section id="automated-testing" class="slide level2">
+<h2>Automated testing</h2>
+<p><img data-src="images/github_actions.png" class="absolute" style="top: 10%; left: 10%; height: 80%; "></p>
+</section>
+<section id="automated-testing-1" class="slide level2">
+<h2>Automated testing</h2>
+<p><img data-src="images/github_actions_workflow.png" class="absolute" style="top: 10%; left: 10%; height: 80%; "></p>
+</section>
+<section id="automated-testing-2" class="slide level2">
+<h2>Automated testing</h2>
+<p><img data-src="images/github_actions_output.png" class="absolute" style="top: 10%; left: 10%; height: 80%; "></p>
+</section>
+<section id="reproducibility-vs.-validity" class="slide level2">
+<h2>Reproducibility vs.&nbsp;validity</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Reproducibility does not ensure validity
+<ul>
+<li>The code could be reproducibly wrong!</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p><img data-src="images/ReliabilityValidity-1.png" class="absolute" style="top: 10%; left: 40%; height: 80%; "></p>
+</section>
+<section id="code-validation" class="slide level2">
+<h2>Code validation</h2>
+<ul>
+<li>Parameter recovery
+<ul>
+<li>generate synthetic data with a known answer, and make sure that your code can recover the known answer</li>
+<li>Best to do this before ever touching the real data!</li>
+</ul></li>
+<li>Null/randomization testing
+<ul>
+<li>Generate data with no effect (either synthetic or via randomization of real data) and make sure that no effect is found</li>
+</ul></li>
+<li>There are increasingly powerful frameworks for generating simulated data
+<ul>
+<li>Python: Synthetic Data Vault (https://sdv.dev/SDV/)</li>
+</ul></li>
+</ul>
+</section>
+<section id="conclusions" class="slide level2">
+<h2>Conclusions</h2>
+<ul>
+<li>Neuroimaging has a reproducibility problem
+<ul>
+<li>Likely not very different from other areas of science with complex computational workflows and large datasets</li>
+</ul></li>
+<li>Statistical power is one key to solving the problem</li>
+<li>Software engineering tools can help ensure reproducibility and validity of complex analyses</li>
+<li>The tools that you will learn at Neurohackademy will help you do better science!</li>
+</ul>
+</section>
+<section id="section-29" class="slide level2">
+<h2></h2>
+<p><img data-src="images/poldracklab_acknowledgments.png" class="absolute" style="top: 0%; left: 0%; height: 90%; "></p>
 
 <div class="footer footer-default">
 <p>https://poldrack.github.io/talks-Neurohackademy/</p>

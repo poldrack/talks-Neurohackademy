@@ -1,7 +1,7 @@
 # This tag should match the release tag in Github
 TAG = "Reproducibility_Neurohackademy_August_7_2023"
 
-all: render-talk push-talk render-pdf push-pdf render-site push-site
+all: render-talk push-talk render-site push-site
 
 render-talk:
 	-git rm -rf docs/talk/*

@@ -15,6 +15,8 @@ format:
     theme: [default, rp-theme.scss]
     height: 1080
     width: 1920
+    code-fold: false
+
 ---
 
 ##  {.centered-bigger}
@@ -389,3 +391,436 @@ http://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html
 ::: {.absolute top=90% width="100%" style="text-align: center;"}
 Kaplan & Irvin, 2015
 :::
+
+##
+
+::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
+
+Pre-registration prevents p-hacking but does not eliminate analytic variability
+\
+\
+How variable are neuroimaging analysis workflows in the wild?
+\
+\
+What is the effect on scientific inferences?
+:::
+
+##
+
+![](images/narps_group.png){.absolute top="0%" left="10%" height="90%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Data collection: Mixed gambles task
+
+- Functional MRI data for 108 subjects collected at Tel Aviv University
+
+![](images/narps_task.png){.absolute top="20%" left="10%" height="70%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Study recruitment
+
+- Analysis teams recruited via social media and conferences
+  - Up to 3 people each
+  - Signed non-disclosure agreement
+  - Offered co-authorship on initial paper
+- Raw dataset (~400GB) distributed to 82 teams via Globus
+- Teams given ~3 months to provide Y/N answers to 9 hypothesis tests:
+  - Is there significant activation in <brain area> for <feature of experimental design>?
+- Using their standard analysis workflow
+  - Only restriction was that analysis should include whole brain
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Results collection
+
+- Received final results from 70 teams
+- Teams reported their yes/no decisions for each hypothesis
+  - Also uploaded the whole-brain statistical maps before and after thresholding
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## How variable are workflows in the wild?
+
+![](images/cobidas_title.png){.absolute top="20%" left="10%" width="70%"}
+
+::: {.absolute top=55% width="100%" style="text-align: center;"}
+- Teams provided a detailed written description of analysis workflows
+- No 2 teams used an identical workflow
+- Even with detailed written description it was often impossible to tell exactly what was done!
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## What is the effect of analytic variability on outcomes?
+
+![](images/narps_outcomes.png){.absolute top="10%" left="20%" height="60%"}
+
+::: {.absolute top=75%}
+- Across teams there were 33 different patterns of outcomes
+- For any hypothesis, there are at least 4 workflows that can give a positive result
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Variability of whole-brain results
+
+::: {.absolute top=15% width="100%" style="font-size: 1.4em; text-align: center;"}
+Proportion of teams with activity in each voxel
+:::
+
+![](images/narps_wholebrain.png){.absolute top="30%" left="15%" width="70%"}
+
+::: {.absolute top=70% width="100%" style="font-size: 1.4em; text-align: center;"}
+Maximum overlap for all hypotheses: 76%
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+##
+
+![](images/narps_table.png){.absolute top="20%" left="0%" width="100%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+##
+
+![](images/narps_corrmap1){.absolute top="0%" left="0%" height="90%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+##
+
+![](images/narps_corrmap2){.absolute top="0%" left="0%" height="90%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## Meta-analysis across groups shows reliable findings
+
+![](images/narps_meta.png){.absolute top="10%" left="8%" height="80%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+## How to improve analytic reproducibility
+
+![](images/elife_multi_analyst.png){.absolute top="10%" left="0%" height="30%"}
+![](images/blind_analysis.png){.absolute top="50%" left="0%" height="45%"}
+![](images/simulated_data_gelman.png){.absolute top="30%" left="50%" width="45%"}
+
+##
+
+::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
+How many of you have written computer code in the course of your research?
+:::
+
+##
+
+::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
+How many of you have been trained in software engineering?
+:::
+
+##
+
+::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
+How many of you have ever written a test for your code?
+:::
+
+## Software errors are a threat to reproducibility
+
+![](images/chang_abstracts.png){.absolute top="20%" left="15%" height="80%"}
+
+##
+
+![](images/chang_retraction.png){.absolute top="0%" left="10%" height="100%"}
+
+## Small errors can have big effects
+
+::: {.absolute top=10% height="70%" left="0%" style="font-size: 1.5em;"}
+```
+# 23-class classification problem
+
+skf=StratifiedKFold(labels,8)
+
+if trainsvm:
+    pred=N.zeros(len(labels))
+    for train,test in skf:
+        clf=LinearSVC()
+        clf.fit(data[train],labels[train])
+        pred[test]=clf.predict(data[test])
+```
+:::
+
+::: {.absolute top=65% height="70%" left="0%" style="font-size: 1.5em;"}
+**Results: 93% accuracy**
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html
+:::
+
+## Small errors can have big effects
+
+::: {.absolute top=10% height="70%" left="0%" style="font-size: 1.5em;"}
+```
+# 23-class classification problem
+
+skf=StratifiedKFold(labels,8)
+
+if trainsvm:
+    pred=N.zeros(len(labels))
+    for train,test in skf:
+        clf=LinearSVC()
+        clf.fit(data[train],labels[train])
+        pred[test]=clf.predict(data[test])
+```
+:::
+
+::: {.absolute top=65% height="70%" left="0%" style="font-size: 1.5em;"}
+**Results: 93% accuracy**
+:::
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html
+:::
+
+::: {.absolute top=47% left="65%" style="font-size: 1.5em;"}
+```
+data[:,train]
+data[:,test]
+```
+:::
+
+::: {.absolute top=65% height="70%" left="65%" style="font-size: 1.5em;"}
+**Results: 53% accuracy**
+:::
+
+## Software errors hit home
+
+![](images/error1.png){.absolute top="10%" left="0%" width="65%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://reproducibility.stanford.edu/coding-error-postmortem/
+:::
+
+## Software errors hit home
+
+![](images/error2.png){.absolute top="10%" left="0%" width="67%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://reproducibility.stanford.edu/coding-error-postmortem/
+:::
+
+## Software errors hit home
+
+![](images/error3.png){.absolute top="10%" left="0%" width="67%"}
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://reproducibility.stanford.edu/coding-error-postmortem/
+:::
+
+## Bug-hacking
+
+![](images/bug_hacking.png){.absolute top="10%" left="0%" width="100%"}
+
+::: {.absolute top=85% width="100%" style="font-size: 1.5em; text-align: center;"}
+- Bugs that confirm our predictions are less likely to be uncovered than bugs that disconfirm them
+:::
+
+## The principle of assumed error
+
+- Whenever you find a seemingly good result (e.g. one that fits your predictions), assume that it occurred due to an error in your code
+- Protects from “bug hacking”
+
+
+::: {.absolute top=90% width="100%" style="text-align: center;"}
+http://www.russpoldrack.org/2016/08/the-principle-of-assumed-error.html
+:::
+
+## Coding for reproducibility
+
+:::: {.columns}
+::: {.column width="50%"}
+- High quality code should be:
+  - Readable
+  - Robust
+  - Modular
+  - Well-tested
+- Coding is a craft
+  - The only way to improve one’s skills is through consistent and deliberate practice
+:::
+::::
+
+![](images/software_carpentry.png){.absolute top="20%" left="60%" width="30%"}
+
+::: {.absolute top="55%" left="55%" style="font-size: 1.3em; text-align: center;"}
+https://software-carpentry.org
+:::
+
+
+## Coding style
+
+- “code is read much more often than it is written” so readability counts (G. van Rossum) 
+- Nearly all languages have conventions for coding style
+  - Following them makes your code easier for others to understand
+  - “others” includes your future self!
+- There are also language-independent principles of software design
+
+![](images/coding_books.png){.absolute top="50%" left="0%" width="100%"}
+
+## Commenting is not a magic balm for bad code
+
+- Comments should help the reader to know as much as the writer knows about the code
+  - Should express intention when it’s not obvious
+- “Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments” (Robert Martin, Clean Code)
+- “Don’t comment bad code — rewrite it” (Kernighan & Plaugher)
+
+## Code quality analysis and repair
+
+- Static analysis (pylint, flake8, etc)
+  - Checks for errors and adherence to Python style guidelines
+  - Can be run automatically within editor any time code is saved
+- Automated formatting tools can help ensure good code formatting
+  - black/blue for Python
+- Collaborator: “Fixing the style made your code so much easier to read!”
+
+![](images/pylint.png){.absolute top="40%" left="0%" width="80%"}
+
+## Code review
+
+:::: {.columns}
+::: {.column width="50%"}
+- Linus’s law
+  - "given enough eyeballs, all bugs are shallow.”
+- If no humans are available to review, AI tools can be helpful
+:::
+::::
+
+![](images/petre_title.png){.absolute top="0%" left="55%" width="40%"}
+![](images/petre_abstract.png){.absolute top="26%" left="55%" height="60%"}
+
+## Software testing
+
+- Smoke tests
+  - Does everything run without exploding?
+- Sanity checks
+  - Are values within reasonable ranges?
+- Unit tests
+  - Does the function do what it is supposed to do?
+
+::: {.absolute top="75%" left="0%" width="100%" style="text-align: center;"}
+https://github.com/poldrack/pytest_tutorial
+:::
+
+##
+
+![](images/plosone_title.png){.absolute top="0%" left="0%" width="50%"}
+
+::: {.absolute top="40%" left="0%" width="100%" style="font-size: 1.2em; text-align: left;"}
+
+The dataset included two notable age outliers (reported ages 5 and 32757).
+
+Specifically, the statement on page 9 “age turned out not to correlate with any of the indicator variables” is incorrect. It should read instead “age correlated significantly with 3 latent indicator variables (Vaccinations: .219, p < .0001; Conservatism: .169, p < .001; Conspiracist ideation: -.140, maximum likelihood p < .0001, bootstrapped p = .004), and straddled significance for a fourth (Free Market: .08, p%.05).”
+
+:::
+
+##
+
+::: {.absolute top=10% height="70%" left="0%" style="font-size: 1.5em;"}
+```
+In [1]: age=32757
+
+In [2]: assert age>12 and age<120
+------------------------------------------------
+AssertionError                            Traceback (most recent call last)
+<ipython-input-2-37de876b5fda> in <module>()
+----> 1 assert age>12 and age<120
+
+AssertionError:
+```
+:::
+
+## Test-driven development
+
+:::: {.columns}
+::: {.column width="50%"}
+- Write test cases based on the intended behavior of the code
+- Run tests and continue to modify code until the tests pass
+- Add tests for any new requirements
+:::
+::::
+
+![](images/TDD-1-640x770.png){.absolute top="0%" left="55%" width="40%"}
+
+::: {.absolute top=90%  left="55%" style="font-size: 0.8em;"}
+https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
+:::
+
+## Automated testing
+
+![](images/github_actions.png){.absolute top="10%" left="10%" height="80%"}
+
+## Automated testing
+
+![](images/github_actions_workflow.png){.absolute top="10%" left="10%" height="80%"}
+
+## Automated testing
+
+![](images/github_actions_output.png){.absolute top="10%" left="10%" height="80%"}
+
+## Reproducibility vs. validity
+
+:::: {.columns}
+::: {.column width="40%"}
+- Reproducibility does not ensure validity
+  - The code could be reproducibly wrong!
+:::
+::::
+
+
+![](images/ReliabilityValidity-1.png){.absolute top="10%" left="40%" height="80%"}
+
+
+## Code validation
+
+- Parameter recovery
+  - generate synthetic data with a known answer, and make sure that your code can recover the known answer
+  - Best to do this before ever touching the real data!
+- Null/randomization testing
+  - Generate data with no effect (either synthetic or via randomization of real data) and make sure that no effect is found
+- There are increasingly powerful frameworks for generating simulated data
+  - Python: Synthetic Data Vault (https://sdv.dev/SDV/)
+
+## Conclusions
+
+- Neuroimaging has a reproducibility problem
+  - Likely not very different from other areas of science with complex computational workflows and large datasets
+- Statistical power is one key to solving the problem
+- Software engineering tools can help ensure reproducibility and validity of complex analyses
+- The tools that you will learn at Neurohackademy will help you do better science! 
+
+##
+
+![](images/poldracklab_acknowledgments.png){.absolute top="0%" left="0%" height="90%"}
