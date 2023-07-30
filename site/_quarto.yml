@@ -3,10 +3,10 @@ project:
   output-dir: ../docs
 
 website:
-  title: "Template talk"
+  title: "Neurohackademy talk"
   navbar:
     left:
-      - href: https://github.com/poldrack/talks-template
+      - href: https://github.com/poldrack/talks-Neurohackademy
         text: Github page
 
 format:

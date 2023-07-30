@@ -1,7 +1,7 @@
 ---
 ---
 
-## Talks about the template project
+## Neurohackademy talks
 
 [Current version of talk](talk/)
 
