@@ -116,7 +116,7 @@
     "href": "talk.html#how-well-powered-are-fmri-studies",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "How well powered are fMRI studies?",
-    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2020 (n=30/group) was powered to find a single 200 voxel activation with d~0.73\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
+    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2020 (n=35/group) was powered to find a single 200 voxel activation with d~0.67\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
   },
   {
     "objectID": "talk.html#estimating-realistic-effect-sizes",
@@ -144,7 +144,7 @@
     "href": "talk.html#estimating-realistic-effect-sizes-3",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "Estimating realistic effect sizes",
-    "text": "Estimating realistic effect sizes"
+    "text": "Estimating realistic effect sizes\n\n\n\n\n\nUnbiased effect size estimate"
   },
   {
     "objectID": "talk.html#what-are-realistic-effect-sizes-for-fmri",

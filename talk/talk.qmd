@@ -213,11 +213,11 @@ Jason stein et al. for the ENIGMA Consortium
 
 ## How well powered are fMRI studies?
 
-![](images/fmri_power_2020.png){.absolute top="10%" left="5%" width="80%"}
+![](images/Figure1_2023.png){.absolute top="10%" left="5%" width="80%"}
 
 
 ::: {.absolute top=75% left=0% style="text-align: left;"}
-- Median study in 2020 (n=30/group) was powered to find a single 200 voxel activation with d~0.73
+- Median study in 2020 (n=35/group) was powered to find a single 200 voxel activation with d~0.67
 - Is that plausible?
 :::
 
@@ -254,6 +254,10 @@ Updated from Poldrack et al., 2017
 ![](images/effect_size_pt2.png){.absolute top="15%" left="45%" height="25%"}
 
 ![](images/effect_size_pt3.png){.absolute top="55%" left="45%" height="35%"}
+
+::: {.absolute top="40%" left="75%" width="15%" style="font-size: 1.3em; text-align: center;"}
+Unbiased effect size estimate
+:::
 
 ## What are realistic effect sizes for fMRI?
 
