@@ -207,7 +207,7 @@ Jason stein et al. for the ENIGMA Consortium
 
 ![](images/stein_journal.png){.absolute top="32%" left="1%" width="40%"}
 
-::: {.absolute top=40% left=1% width=50% style="font-size: 1.5em; text-align: left;"}
+::: {.absolute top=40% left=1% width=50% style="font-size: 1.25em; text-align: left;"}
 "In general, previously identified poly­morphisms associated with hippocampal volume showed little association in our meta­-analysis (BDNF, TOMM40, CLU, PICALM, ZNF804A, COMT, DISC1, NRG1, DTNBP1), nor did SNPs previously associated with schizophrenia or bipolar disorder"
 :::
 
@@ -217,7 +217,7 @@ Jason stein et al. for the ENIGMA Consortium
 
 
 ::: {.absolute top=75% left=0% style="text-align: left;"}
-- Median study in 2020 (n=35/group) was powered to find a single 200 voxel activation with d~0.67
+- Median study in 2023 (n=33/group) was powered to find a single 200 voxel activation with d~0.69
 - Is that plausible?
 :::
 
@@ -649,7 +649,7 @@ http://reproducibility.stanford.edu/coding-error-postmortem/
 
 ![](images/bug_hacking.png){.absolute top="10%" left="0%" width="100%"}
 
-::: {.absolute top=85% width="100%" style="font-size: 1.5em; text-align: center;"}
+::: {.absolute top=85% width="100%" style="font-size: 1.25em; text-align: center;"}
 - Bugs that confirm our predictions are less likely to be uncovered than bugs that disconfirm them
 :::
 

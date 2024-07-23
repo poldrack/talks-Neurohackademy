@@ -81,7 +81,7 @@
     "href": "talk.html#low-power---unreliable-science",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "Low power -> unreliable science",
-    "text": "Low power -&gt; unreliable science\n\n\nPositive Predictive Value (PPV): The probability that a positive result is true\n\nWinner’s Curse: overestimation of effect sizes for significant results\n\n\n\n\n\n\nButton et al, 2013"
+    "text": "Low power -&gt; unreliable science\n\n\nPositive Predictive Value (PPV): The probability that a positive result is true\n\nWinner’s Curse: overestimation of effect sizes for significant results\n\n\n\n\n\nButton et al, 2013"
   },
   {
     "objectID": "talk.html#small-samples-high-instability-of-statistical-estimates",
@@ -116,7 +116,7 @@
     "href": "talk.html#how-well-powered-are-fmri-studies",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "How well powered are fMRI studies?",
-    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2020 (n=35/group) was powered to find a single 200 voxel activation with d~0.67\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
+    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2023 (n=33/group) was powered to find a single 200 voxel activation with d~0.69\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
   },
   {
     "objectID": "talk.html#estimating-realistic-effect-sizes",
@@ -228,14 +228,14 @@
     "href": "talk.html#improving-reproducibility-through-pre-registration",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "Improving reproducibility through pre-registration",
-    "text": "Improving reproducibility through pre-registration\n\n\n\nRegister analysis plan prior to accessing data\n\nPreferably with code based on analysis of simulated data\n\nThis does not prevent exploratory analysis\n\nBut planned and exploratory analyses should be clearly delineated in the paper\n\nIf the preregistration commits you to something that you learn is bad, you can always deviate\n\nas long as you are explicit in the paper\n\n\n\n\n\n\nhttp://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html"
+    "text": "Improving reproducibility through pre-registration\n\n\n\nRegister analysis plan prior to accessing data\n\nPreferably with code based on analysis of simulated data\n\nThis does not prevent exploratory analysis\n\nBut planned and exploratory analyses should be clearly delineated in the paper\n\nIf the preregistration commits you to something that you learn is bad, you can always deviate\n\nas long as you are explicit in the paper\n\n\n\n\n\nhttp://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html"
   },
   {
     "objectID": "talk.html#section-17",
     "href": "talk.html#section-17",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "",
-    "text": "The requirement for clinical trial registration was associated with many more null effects\nThis is a “cost” under the current incentives to publish\n\n\n\n\n\nKaplan & Irvin, 2015"
+    "text": "The requirement for clinical trial registration was associated with many more null effects\nThis is a “cost” under the current incentives to publish\n\n\n\n\nKaplan & Irvin, 2015"
   },
   {
     "objectID": "talk.html#section-18",
@@ -410,7 +410,7 @@
     "href": "talk.html#coding-for-reproducibility",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "Coding for reproducibility",
-    "text": "Coding for reproducibility\n\n\n\nHigh quality code should be:\n\nReadable\nRobust\nModular\nWell-tested\n\nCoding is a craft\n\nThe only way to improve one’s skills is through consistent and deliberate practice\n\n\n\n\n\n\nhttps://software-carpentry.org"
+    "text": "Coding for reproducibility\n\n\n\nHigh quality code should be:\n\nReadable\nRobust\nModular\nWell-tested\n\nCoding is a craft\n\nThe only way to improve one’s skills is through consistent and deliberate practice\n\n\n\n\n\nhttps://software-carpentry.org"
   },
   {
     "objectID": "talk.html#coding-style",
@@ -466,7 +466,7 @@
     "href": "talk.html#test-driven-development",
     "title": "Reproducibility in neuroimaging: What is the problem?",
     "section": "Test-driven development",
-    "text": "Test-driven development\n\n\n\nWrite test cases based on the intended behavior of the code\nRun tests and continue to modify code until the tests pass\nAdd tests for any new requirements\n\n\n\n\n\nhttps://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd"
+    "text": "Test-driven development\n\n\n\nWrite test cases based on the intended behavior of the code\nRun tests and continue to modify code until the tests pass\nAdd tests for any new requirements\n\n\n\n\nhttps://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd"
   },
   {
     "objectID": "talk.html#automated-testing",
