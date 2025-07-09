@@ -1,5 +1,5 @@
 ---
-title: "Reproducibility in neuroimaging: What is the problem?" 
+title: "Reproducibility in cognitive neuroscience: What is the problem?" 
 author: Russ Poldrack
 institute: Stanford University
 title-slide-attributes:
@@ -21,11 +21,11 @@ format:
 
 ##  {.centered-bigger}
 
-A search for “fMRI” for FY2020 NIH grants finds:
+A search for “fMRI” for FY2024 NIH grants finds:
 
-1218 matching grants
+1816 matching grants
 
-$552M total costs
+$941M total costs
 
 ##
 
@@ -217,7 +217,7 @@ Jason stein et al. for the ENIGMA Consortium
 
 
 ::: {.absolute top=75% left=0% style="text-align: left;"}
-- Median study in 2023 (n=33/group) was powered to find a single 200 voxel activation with d~0.69
+- Median study in 2024 (n=36/group) was powered to find a single 200 voxel activation with d~0.67
 - Is that plausible?
 :::
 
@@ -396,6 +396,28 @@ http://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html
 Kaplan & Irvin, 2015
 :::
 
+## Pre-registering neuroimaging studies is hard!
+:::: {.columns}
+::: {.column width="60%"}
+- Specify as much as possible
+  - How will sample size be determined?
+  - Inclusion/exclusion criteria
+  - Primary hypotheses to be tested
+  - Anatomical regions of interest
+  - Analysis plan
+    - Preferably with code tested on existing or simulated data
+:::
+::: {.column width="40%"}
+![](images/fmri-prereg.png){.absolute top="15%" left=40%" height="85%"}
+
+
+:::
+::::
+
+::: {.absolute top=70% left="55%" style="text-align: center;"}
+https://prereg-psych.org/create/
+:::
+
 ##
 
 ::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
@@ -496,6 +518,7 @@ Maximum overlap for all hypotheses: 76%
 Botvinik-Nezer et al., 2020, *Nature*
 :::
 
+<!--
 ##
 
 ![](images/narps_table.png){.absolute top="20%" left="0%" width="100%"}
@@ -503,6 +526,7 @@ Botvinik-Nezer et al., 2020, *Nature*
 ::: {.absolute top=90% width="100%" style="text-align: center;"}
 Botvinik-Nezer et al., 2020, *Nature*
 :::
+-->
 
 ##
 
@@ -718,7 +742,8 @@ https://software-carpentry.org
 ::: {.column width="50%"}
 - Linus’s law
   - "given enough eyeballs, all bugs are shallow.”
-- If no humans are available to review, AI tools can be helpful
+- Code review as a group is a great way to learn coding skills
+- AI tools have become very good at code review
 :::
 ::::
 
@@ -819,7 +844,7 @@ https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
 
 ## Conclusions
 
-- Neuroimaging has a reproducibility problem
+- Cognitive neuroscience has a reproducibility problem
   - Likely not very different from other areas of science with complex computational workflows and large datasets
 - Statistical power is one key to solving the problem
 - Software engineering tools can help ensure reproducibility and validity of complex analyses

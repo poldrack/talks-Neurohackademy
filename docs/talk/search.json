@@ -2,519 +2,512 @@
   {
     "objectID": "talk.html#section",
     "href": "talk.html#section",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
-    "text": "A search for “fMRI” for FY2020 NIH grants finds:\n1218 matching grants\n$552M total costs"
+    "text": "A search for “fMRI” for FY2024 NIH grants finds:\n1816 matching grants\n$941M total costs"
   },
   {
     "objectID": "talk.html#section-2",
     "href": "talk.html#section-2",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "What is the brain dysfunction in major depression?\nMeta-analysis of 99 published studies\n\n\nMuller et al, 2017, JAMA Psychiatry"
   },
   {
     "objectID": "talk.html#section-8",
     "href": "talk.html#section-8",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "We seem to have created quite a mess.\nHow can we fix it?"
   },
   {
     "objectID": "talk.html#section-9",
     "href": "talk.html#section-9",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "“Sunlight is said to be the best disinfectant”\n(Louis Brandeis)"
   },
   {
     "objectID": "talk.html#towards-an-ecosystem-for-open-and-reproducible-neuroscience",
     "href": "talk.html#towards-an-ecosystem-for-open-and-reproducible-neuroscience",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Towards an ecosystem for open and reproducible neuroscience",
     "text": "Towards an ecosystem for open and reproducible neuroscience"
   },
   {
     "objectID": "talk.html#designing-a-more-reproducible-scientific-enterprise",
     "href": "talk.html#designing-a-more-reproducible-scientific-enterprise",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Designing a more reproducible scientific enterprise",
     "text": "Designing a more reproducible scientific enterprise"
   },
   {
     "objectID": "talk.html#designing-a-more-reproducible-scientific-enterprise-1",
     "href": "talk.html#designing-a-more-reproducible-scientific-enterprise-1",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Designing a more reproducible scientific enterprise",
     "text": "Designing a more reproducible scientific enterprise"
   },
   {
     "objectID": "talk.html#section-10",
     "href": "talk.html#section-10",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "82 | NATURE | VOL 526 | 8 OCTOBER 2015"
   },
   {
     "objectID": "talk.html#improving-the-choice-architecture-of-science",
     "href": "talk.html#improving-the-choice-architecture-of-science",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Improving the choice architecture of science",
     "text": "Improving the choice architecture of science\n\n\n\nChoice architecture\n\nparticular set of features that drive people toward or away from particular choices\n\nNudges\n\nImproving incentives\nUsing the power of defaults\nProviding feedback\nExpecting and prevent errors"
   },
   {
     "objectID": "talk.html#section-11",
     "href": "talk.html#section-11",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "The smaller the studies conducted in a scientific field, the less likely the research findings are to be true."
   },
   {
     "objectID": "talk.html#neuroscience-research-is-badly-underpowered",
     "href": "talk.html#neuroscience-research-is-badly-underpowered",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Neuroscience research is badly underpowered",
     "text": "Neuroscience research is badly underpowered"
   },
   {
     "objectID": "talk.html#low-power---unreliable-science",
     "href": "talk.html#low-power---unreliable-science",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Low power -> unreliable science",
     "text": "Low power -&gt; unreliable science\n\n\nPositive Predictive Value (PPV): The probability that a positive result is true\n\nWinner’s Curse: overestimation of effect sizes for significant results\n\n\n\n\n\nButton et al, 2013"
   },
   {
     "objectID": "talk.html#small-samples-high-instability-of-statistical-estimates",
     "href": "talk.html#small-samples-high-instability-of-statistical-estimates",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Small samples = high instability of statistical estimates",
     "text": "Small samples = high instability of statistical estimates\n\n\nSchonbrodt & Perugini, 2013"
   },
   {
     "objectID": "talk.html#section-12",
     "href": "talk.html#section-12",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "Marek et al., 2022"
   },
   {
     "objectID": "talk.html#small-samples-publication-bias-the-case-of-candidate-genes",
     "href": "talk.html#small-samples-publication-bias-the-case-of-candidate-genes",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Small samples + publication bias: the case of candidate genes",
     "text": "Small samples + publication bias: the case of candidate genes"
   },
   {
     "objectID": "talk.html#candidate-gene-associations-fail-in-well-powered-gwas",
     "href": "talk.html#candidate-gene-associations-fail-in-well-powered-gwas",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Candidate gene associations fail in well-powered GWAS",
     "text": "Candidate gene associations fail in well-powered GWAS\n\n\n\nJason stein et al. for the ENIGMA Consortium\n\n\n\n“In general, previously identified poly­morphisms associated with hippocampal volume showed little association in our meta­-analysis (BDNF, TOMM40, CLU, PICALM, ZNF804A, COMT, DISC1, NRG1, DTNBP1), nor did SNPs previously associated with schizophrenia or bipolar disorder”"
   },
   {
     "objectID": "talk.html#how-well-powered-are-fmri-studies",
     "href": "talk.html#how-well-powered-are-fmri-studies",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "How well powered are fMRI studies?",
-    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2023 (n=33/group) was powered to find a single 200 voxel activation with d~0.69\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
+    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2024 (n=36/group) was powered to find a single 200 voxel activation with d~0.67\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
   },
   {
     "objectID": "talk.html#estimating-realistic-effect-sizes",
     "href": "talk.html#estimating-realistic-effect-sizes",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Estimating realistic effect sizes",
     "text": "Estimating realistic effect sizes"
   },
   {
     "objectID": "talk.html#estimating-realistic-effect-sizes-1",
     "href": "talk.html#estimating-realistic-effect-sizes-1",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Estimating realistic effect sizes",
     "text": "Estimating realistic effect sizes"
   },
   {
     "objectID": "talk.html#estimating-realistic-effect-sizes-2",
     "href": "talk.html#estimating-realistic-effect-sizes-2",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Estimating realistic effect sizes",
     "text": "Estimating realistic effect sizes"
   },
   {
     "objectID": "talk.html#estimating-realistic-effect-sizes-3",
     "href": "talk.html#estimating-realistic-effect-sizes-3",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Estimating realistic effect sizes",
     "text": "Estimating realistic effect sizes\n\n\n\n\n\nUnbiased effect size estimate"
   },
   {
     "objectID": "talk.html#what-are-realistic-effect-sizes-for-fmri",
     "href": "talk.html#what-are-realistic-effect-sizes-for-fmri",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "What are realistic effect sizes for fMRI?",
     "text": "What are realistic effect sizes for fMRI?\n\n\nPoldrack et al., 2017, Nature Reviews Neuroscience"
   },
   {
     "objectID": "talk.html#depression-studies-from-muller-et-al.",
     "href": "talk.html#depression-studies-from-muller-et-al.",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Depression studies from Muller et al.",
     "text": "Depression studies from Muller et al.\n\n\nAuthors must collect at last 20 observations per cell or else provide a compelling cost-of-data-collection justification. This requirement offers extra protection for the first requirement. Samples smaller than 20 per cell are simply not powerful enough to detect most effects, and so there is usually no good reason to decide in advance to collect such a small number of observations. Smaller samples, it follows, are much more likely to reflect interim data analysis and a flexible termination rule (Simmons et al., 2011)"
   },
   {
     "objectID": "talk.html#small-samples---variable-estimates-of-predictive-accuracy",
     "href": "talk.html#small-samples---variable-estimates-of-predictive-accuracy",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Small samples -> variable estimates of predictive accuracy",
     "text": "Small samples -&gt; variable estimates of predictive accuracy\n\n\nVaroquaux, 2018"
   },
   {
     "objectID": "talk.html#small-samples-publication-bias---inflated-accuracy-estimates",
     "href": "talk.html#small-samples-publication-bias---inflated-accuracy-estimates",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Small samples + publication bias -> inflated accuracy estimates",
     "text": "Small samples + publication bias -&gt; inflated accuracy estimates\n\n\nVaroquaux, 2018"
   },
   {
     "objectID": "talk.html#doing-well-powered-science-as-a-trainee",
     "href": "talk.html#doing-well-powered-science-as-a-trainee",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Doing well-powered science as a trainee",
     "text": "Doing well-powered science as a trainee\n\n\n\nUnderpowered science is futile, but many ECRs don’t have resources to do sufficiently powered studies\n“if you can’t answer the question you love, love the question you can” (Kanwisher, 2017)\nPivots:\n\nCollaborate\nUse shared data\nFocus on theory/computational modeling"
   },
   {
     "objectID": "talk.html#a-golden-age-of-data-sharing",
     "href": "talk.html#a-golden-age-of-data-sharing",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "A golden age of data sharing",
     "text": "A golden age of data sharing"
   },
   {
     "objectID": "talk.html#section-13",
     "href": "talk.html#section-13",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "The greater the flexibility in designs, definitions, outcomes, and analytical modes in a scientific field, the less likely the research findings are to be true."
   },
   {
     "objectID": "talk.html#section-14",
     "href": "talk.html#section-14",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "Poldrack et al., 2017"
   },
   {
     "objectID": "talk.html#section-15",
     "href": "talk.html#section-15",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "“data collection and analysis methods were highly flexible across studies, with nearly as many unique analysis pipelines as there were studies in the sample [241].”"
   },
   {
     "objectID": "talk.html#machine-learning-can-make-it-worse",
     "href": "talk.html#machine-learning-can-make-it-worse",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Machine learning can make it worse",
     "text": "Machine learning can make it worse\n \n\n“In this article, we use Support Vector Machine (SVM) classifiers, and genetic algorithms to demonstrate the ease by which overfitting can occur, despite the use of cross validation. We demonstrate that comparable and non-generalizable results can be obtained on informative and non-informative (i.e. random) data by iteratively modifying hyperparameters in seemingly innocuous ways.”"
   },
   {
     "objectID": "talk.html#its-not-just-fmri",
     "href": "talk.html#its-not-just-fmri",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "It’s not just fMRI",
     "text": "It’s not just fMRI\n \n\nThe purpose of this paper is to demonstrate how common and seemingly innocuous methods for quantifying and analyzing ERP effects can lead to very high rates of significant but bogus effects, with the likelihood of obtaining at least one such bogus effect exceeding 50% in many experiments."
   },
   {
     "objectID": "talk.html#improving-reproducibility-through-pre-registration",
     "href": "talk.html#improving-reproducibility-through-pre-registration",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Improving reproducibility through pre-registration",
     "text": "Improving reproducibility through pre-registration\n\n\n\nRegister analysis plan prior to accessing data\n\nPreferably with code based on analysis of simulated data\n\nThis does not prevent exploratory analysis\n\nBut planned and exploratory analyses should be clearly delineated in the paper\n\nIf the preregistration commits you to something that you learn is bad, you can always deviate\n\nas long as you are explicit in the paper\n\n\n\n\n\nhttp://www.russpoldrack.org/2016/09/why-preregistration-no-longer-makes-me.html"
   },
   {
     "objectID": "talk.html#section-17",
     "href": "talk.html#section-17",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "The requirement for clinical trial registration was associated with many more null effects\nThis is a “cost” under the current incentives to publish\n\n\n\n\nKaplan & Irvin, 2015"
   },
   {
+    "objectID": "talk.html#pre-registering-neuroimaging-studies-is-hard",
+    "href": "talk.html#pre-registering-neuroimaging-studies-is-hard",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
+    "section": "Pre-registering neuroimaging studies is hard!",
+    "text": "Pre-registering neuroimaging studies is hard!\n\n\n\nSpecify as much as possible\n\nHow will sample size be determined?\nInclusion/exclusion criteria\nPrimary hypotheses to be tested\nAnatomical regions of interest\nAnalysis plan\n\nPreferably with code tested on existing or simulated data\n\n\n\n\n\n\n\nhttps://prereg-psych.org/create/"
+  },
+  {
     "objectID": "talk.html#section-18",
     "href": "talk.html#section-18",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "Pre-registration prevents p-hacking but does not eliminate analytic variability\n\nHow variable are neuroimaging analysis workflows in the wild?\n\nWhat is the effect on scientific inferences?"
   },
   {
     "objectID": "talk.html#section-19",
     "href": "talk.html#section-19",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "Botvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#data-collection-mixed-gambles-task",
     "href": "talk.html#data-collection-mixed-gambles-task",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Data collection: Mixed gambles task",
     "text": "Data collection: Mixed gambles task\n\nFunctional MRI data for 108 subjects collected at Tel Aviv University\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#study-recruitment",
     "href": "talk.html#study-recruitment",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Study recruitment",
     "text": "Study recruitment\n\nAnalysis teams recruited via social media and conferences\n\nUp to 3 people each\nSigned non-disclosure agreement\nOffered co-authorship on initial paper\n\nRaw dataset (~400GB) distributed to 82 teams via Globus\nTeams given ~3 months to provide Y/N answers to 9 hypothesis tests:\n\nIs there significant activation in  for ?\n\nUsing their standard analysis workflow\n\nOnly restriction was that analysis should include whole brain\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#results-collection",
     "href": "talk.html#results-collection",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Results collection",
     "text": "Results collection\n\nReceived final results from 70 teams\nTeams reported their yes/no decisions for each hypothesis\n\nAlso uploaded the whole-brain statistical maps before and after thresholding\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#how-variable-are-workflows-in-the-wild",
     "href": "talk.html#how-variable-are-workflows-in-the-wild",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "How variable are workflows in the wild?",
     "text": "How variable are workflows in the wild?\n\n\n\nTeams provided a detailed written description of analysis workflows\nNo 2 teams used an identical workflow\nEven with detailed written description it was often impossible to tell exactly what was done!\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#what-is-the-effect-of-analytic-variability-on-outcomes",
     "href": "talk.html#what-is-the-effect-of-analytic-variability-on-outcomes",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "What is the effect of analytic variability on outcomes?",
     "text": "What is the effect of analytic variability on outcomes?\n\n\n\nAcross teams there were 33 different patterns of outcomes\nFor any hypothesis, there are at least 4 workflows that can give a positive result\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#variability-of-whole-brain-results",
     "href": "talk.html#variability-of-whole-brain-results",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Variability of whole-brain results",
     "text": "Variability of whole-brain results\n\nProportion of teams with activity in each voxel\n\n\n\nMaximum overlap for all hypotheses: 76%\n\n\nBotvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#section-20",
     "href": "talk.html#section-20",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "Botvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#section-21",
     "href": "talk.html#section-21",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
-    "section": "",
-    "text": "Botvinik-Nezer et al., 2020, Nature"
-  },
-  {
-    "objectID": "talk.html#section-22",
-    "href": "talk.html#section-22",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "Botvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#meta-analysis-across-groups-shows-reliable-findings",
     "href": "talk.html#meta-analysis-across-groups-shows-reliable-findings",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Meta-analysis across groups shows reliable findings",
     "text": "Meta-analysis across groups shows reliable findings\n\n\nBotvinik-Nezer et al., 2020, Nature"
   },
   {
     "objectID": "talk.html#how-to-improve-analytic-reproducibility",
     "href": "talk.html#how-to-improve-analytic-reproducibility",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "How to improve analytic reproducibility",
     "text": "How to improve analytic reproducibility"
   },
   {
-    "objectID": "talk.html#section-23",
-    "href": "talk.html#section-23",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "objectID": "talk.html#section-22",
+    "href": "talk.html#section-22",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "How many of you have written computer code in the course of your research?"
   },
   {
-    "objectID": "talk.html#section-24",
-    "href": "talk.html#section-24",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "objectID": "talk.html#section-23",
+    "href": "talk.html#section-23",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "How many of you have been trained in software engineering?"
   },
   {
-    "objectID": "talk.html#section-25",
-    "href": "talk.html#section-25",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "objectID": "talk.html#section-24",
+    "href": "talk.html#section-24",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "How many of you have ever written a test for your code?"
   },
   {
     "objectID": "talk.html#software-errors-are-a-threat-to-reproducibility",
     "href": "talk.html#software-errors-are-a-threat-to-reproducibility",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Software errors are a threat to reproducibility",
     "text": "Software errors are a threat to reproducibility"
   },
   {
     "objectID": "talk.html#small-errors-can-have-big-effects",
     "href": "talk.html#small-errors-can-have-big-effects",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Small errors can have big effects",
     "text": "Small errors can have big effects\n\n# 23-class classification problem\n\nskf=StratifiedKFold(labels,8)\n\nif trainsvm:\n    pred=N.zeros(len(labels))\n    for train,test in skf:\n        clf=LinearSVC()\n        clf.fit(data[train],labels[train])\n        pred[test]=clf.predict(data[test])\n\n\nResults: 93% accuracy\n\n\nhttp://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html"
   },
   {
     "objectID": "talk.html#small-errors-can-have-big-effects-1",
     "href": "talk.html#small-errors-can-have-big-effects-1",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Small errors can have big effects",
     "text": "Small errors can have big effects\n\n# 23-class classification problem\n\nskf=StratifiedKFold(labels,8)\n\nif trainsvm:\n    pred=N.zeros(len(labels))\n    for train,test in skf:\n        clf=LinearSVC()\n        clf.fit(data[train],labels[train])\n        pred[test]=clf.predict(data[test])\n\n\nResults: 93% accuracy\n\n\nhttp://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html\n\n\ndata[:,train]\ndata[:,test]\n\n\nResults: 53% accuracy"
   },
   {
     "objectID": "talk.html#software-errors-hit-home",
     "href": "talk.html#software-errors-hit-home",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Software errors hit home",
     "text": "Software errors hit home\n\n\nhttp://reproducibility.stanford.edu/coding-error-postmortem/"
   },
   {
     "objectID": "talk.html#software-errors-hit-home-1",
     "href": "talk.html#software-errors-hit-home-1",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Software errors hit home",
     "text": "Software errors hit home\n\n\nhttp://reproducibility.stanford.edu/coding-error-postmortem/"
   },
   {
     "objectID": "talk.html#software-errors-hit-home-2",
     "href": "talk.html#software-errors-hit-home-2",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Software errors hit home",
     "text": "Software errors hit home\n\n\nhttp://reproducibility.stanford.edu/coding-error-postmortem/"
   },
   {
     "objectID": "talk.html#bug-hacking",
     "href": "talk.html#bug-hacking",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Bug-hacking",
     "text": "Bug-hacking\n\n\n\nBugs that confirm our predictions are less likely to be uncovered than bugs that disconfirm them"
   },
   {
     "objectID": "talk.html#the-principle-of-assumed-error",
     "href": "talk.html#the-principle-of-assumed-error",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "The principle of assumed error",
     "text": "The principle of assumed error\n\nWhenever you find a seemingly good result (e.g. one that fits your predictions), assume that it occurred due to an error in your code\nProtects from “bug hacking”\n\n\nhttp://www.russpoldrack.org/2016/08/the-principle-of-assumed-error.html"
   },
   {
     "objectID": "talk.html#coding-for-reproducibility",
     "href": "talk.html#coding-for-reproducibility",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Coding for reproducibility",
     "text": "Coding for reproducibility\n\n\n\nHigh quality code should be:\n\nReadable\nRobust\nModular\nWell-tested\n\nCoding is a craft\n\nThe only way to improve one’s skills is through consistent and deliberate practice\n\n\n\n\n\nhttps://software-carpentry.org"
   },
   {
     "objectID": "talk.html#coding-style",
     "href": "talk.html#coding-style",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Coding style",
     "text": "Coding style\n\n“code is read much more often than it is written” so readability counts (G. van Rossum)\nNearly all languages have conventions for coding style\n\nFollowing them makes your code easier for others to understand\n“others” includes your future self!\n\nThere are also language-independent principles of software design"
   },
   {
     "objectID": "talk.html#commenting-is-not-a-magic-balm-for-bad-code",
     "href": "talk.html#commenting-is-not-a-magic-balm-for-bad-code",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Commenting is not a magic balm for bad code",
     "text": "Commenting is not a magic balm for bad code\n\nComments should help the reader to know as much as the writer knows about the code\n\nShould express intention when it’s not obvious\n\n“Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments” (Robert Martin, Clean Code)\n“Don’t comment bad code — rewrite it” (Kernighan & Plaugher)"
   },
   {
     "objectID": "talk.html#code-quality-analysis-and-repair",
     "href": "talk.html#code-quality-analysis-and-repair",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Code quality analysis and repair",
     "text": "Code quality analysis and repair\n\nStatic analysis (pylint, flake8, etc)\n\nChecks for errors and adherence to Python style guidelines\nCan be run automatically within editor any time code is saved\n\nAutomated formatting tools can help ensure good code formatting\n\nblack/blue for Python\n\nCollaborator: “Fixing the style made your code so much easier to read!”"
   },
   {
     "objectID": "talk.html#code-review",
     "href": "talk.html#code-review",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Code review",
-    "text": "Code review\n\n\n\nLinus’s law\n\n“given enough eyeballs, all bugs are shallow.”\n\nIf no humans are available to review, AI tools can be helpful"
+    "text": "Code review\n\n\n\nLinus’s law\n\n“given enough eyeballs, all bugs are shallow.”\n\nCode review as a group is a great way to learn coding skills\nAI tools have become very good at code review"
   },
   {
     "objectID": "talk.html#software-testing",
     "href": "talk.html#software-testing",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Software testing",
     "text": "Software testing\n\nSmoke tests\n\nDoes everything run without exploding?\n\nSanity checks\n\nAre values within reasonable ranges?\n\nUnit tests\n\nDoes the function do what it is supposed to do?\n\n\n\nhttps://github.com/poldrack/pytest_tutorial"
   },
   {
-    "objectID": "talk.html#section-27",
-    "href": "talk.html#section-27",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "objectID": "talk.html#section-26",
+    "href": "talk.html#section-26",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "The dataset included two notable age outliers (reported ages 5 and 32757).\nSpecifically, the statement on page 9 “age turned out not to correlate with any of the indicator variables” is incorrect. It should read instead “age correlated significantly with 3 latent indicator variables (Vaccinations: .219, p &lt; .0001; Conservatism: .169, p &lt; .001; Conspiracist ideation: -.140, maximum likelihood p &lt; .0001, bootstrapped p = .004), and straddled significance for a fourth (Free Market: .08, p%.05).”"
   },
   {
-    "objectID": "talk.html#section-28",
-    "href": "talk.html#section-28",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "objectID": "talk.html#section-27",
+    "href": "talk.html#section-27",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "In [1]: age=32757\n\nIn [2]: assert age&gt;12 and age&lt;120\n------------------------------------------------\nAssertionError                            Traceback (most recent call last)\n&lt;ipython-input-2-37de876b5fda&gt; in &lt;module&gt;()\n----&gt; 1 assert age&gt;12 and age&lt;120\n\nAssertionError:"
   },
   {
     "objectID": "talk.html#test-driven-development",
     "href": "talk.html#test-driven-development",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Test-driven development",
     "text": "Test-driven development\n\n\n\nWrite test cases based on the intended behavior of the code\nRun tests and continue to modify code until the tests pass\nAdd tests for any new requirements\n\n\n\n\nhttps://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd"
   },
   {
     "objectID": "talk.html#automated-testing",
     "href": "talk.html#automated-testing",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Automated testing",
     "text": "Automated testing"
   },
   {
     "objectID": "talk.html#automated-testing-1",
     "href": "talk.html#automated-testing-1",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Automated testing",
     "text": "Automated testing"
   },
   {
     "objectID": "talk.html#automated-testing-2",
     "href": "talk.html#automated-testing-2",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Automated testing",
     "text": "Automated testing"
   },
   {
     "objectID": "talk.html#reproducibility-vs.-validity",
     "href": "talk.html#reproducibility-vs.-validity",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Reproducibility vs. validity",
     "text": "Reproducibility vs. validity\n\n\n\nReproducibility does not ensure validity\n\nThe code could be reproducibly wrong!"
   },
   {
     "objectID": "talk.html#code-validation",
     "href": "talk.html#code-validation",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Code validation",
     "text": "Code validation\n\nParameter recovery\n\ngenerate synthetic data with a known answer, and make sure that your code can recover the known answer\nBest to do this before ever touching the real data!\n\nNull/randomization testing\n\nGenerate data with no effect (either synthetic or via randomization of real data) and make sure that no effect is found\n\nThere are increasingly powerful frameworks for generating simulated data\n\nPython: Synthetic Data Vault (https://sdv.dev/SDV/)"
   },
   {
     "objectID": "talk.html#conclusions",
     "href": "talk.html#conclusions",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Conclusions",
-    "text": "Conclusions\n\nNeuroimaging has a reproducibility problem\n\nLikely not very different from other areas of science with complex computational workflows and large datasets\n\nStatistical power is one key to solving the problem\nSoftware engineering tools can help ensure reproducibility and validity of complex analyses\nThe tools that you will learn at Neurohackademy will help you do better science!"
-  },
-  {
-    "objectID": "talk.html#section-29",
-    "href": "talk.html#section-29",
-    "title": "Reproducibility in neuroimaging: What is the problem?",
-    "section": "",
-    "text": "https://poldrack.github.io/talks-Neurohackademy/"
+    "text": "Conclusions\n\nCognitive neuroscience has a reproducibility problem\n\nLikely not very different from other areas of science with complex computational workflows and large datasets\n\nStatistical power is one key to solving the problem\nSoftware engineering tools can help ensure reproducibility and validity of complex analyses\nThe tools that you will learn at Neurohackademy will help you do better science!"
   }
 ]
