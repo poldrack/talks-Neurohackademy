@@ -819,6 +819,18 @@ https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
 
 ![](images/github_actions_output.png){.absolute top="10%" left="10%" height="80%"}
 
+## 
+
+![](images/bcbs_cover.png){.absolute top="0%" left="15%" height="60%"}
+
+::: {.absolute top="75%" left="0%" width="100%" style="text-align: center;"}
+https://poldrack.github.io/BetterCodeBetterScience
+
+New testing sections daily this week at https://russpoldrack.substack.com/
+:::
+
+
+
 ## Reproducibility vs. validity
 
 :::: {.columns}
