@@ -626,19 +626,81 @@ Botvinik-Nezer et al., 2020, *Nature*
 <h2>How to improve analytic reproducibility</h2>
 <p><img data-src="images/elife_multi_analyst.png" class="absolute" style="top: 10%; left: 0%; height: 30%; "> <img data-src="images/blind_analysis.png" class="absolute" style="top: 50%; left: 0%; height: 45%; "> <img data-src="images/simulated_data_gelman.png" class="absolute" style="top: 30%; left: 50%; width: 45%; "></p>
 </section>
+<section id="multiverse-analysis" class="slide level2">
+<h2>Multiverse analysis</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>If the same dataset is analyzed in different ways, do we get the same answer?
+<ul>
+<li>Previous work shows large effects of different analysis workflows</li>
+<li>“Vibration of effects” (Ioannidis)</li>
+</ul></li>
+</ul>
+</div></div>
+<p><img data-src="images/steegen.png" class="absolute" style="top: 10%; left: 40%; height: 60%; "></p>
+<div class="absolute" style="text-align: center;top: 80%; left: 60%; ">
+<p>Steegen et al., 2016</p>
+</div>
+</section>
+<section id="a-multiverse-example-are-there-analytic-choices-that-consistently-improve-test-retest-reliability" class="slide level2">
+<h2>A multiverse example: Are there analytic choices that consistently improve test-retest reliability?</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>Test-retest reliability is essential for individual difference analyses</li>
+<li>Previous work has shown low but variable reliability</li>
+<li>How does this relate to analytic choices?</li>
+</ul>
+</div></div>
+<p><img data-src="images/elliott.png" class="absolute" style="top: 20%; left: 35%; height: 50%; "></p>
+<div class="absolute" style="text-align: center;top: 80%; left: 60%; ">
+<p>Elliott et al., 2020</p>
+</div>
+</section>
+<section id="multiverse-analysis-of-mid-reliability" class="slide level2">
+<h2>Multiverse analysis of MID reliability</h2>
+<p><img data-src="images/mid_reliability.png" class="absolute" style="top: 10%; left: 1%; height: 70%; "></p>
+<div class="absolute" style="text-align: center;top: 80%; left: 60%; ">
+<p>Demidenko et al., 2024</p>
+</div>
+</section>
 <section id="section-22" class="slide level2">
 <h2></h2>
-<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
-<p>How many of you have written computer code in the course of your research?</p>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li>Tested effects of several analytic choices over 240 pipelines
+<ul>
+<li>Smoothing</li>
+<li>Motion modeling</li>
+<li>Model specification</li>
+<li>Contrast specification</li>
+</ul></li>
+<li>Overall, reliability was low
+<ul>
+<li>But it varied substantially across models and contrasts</li>
+</ul></li>
+</ul>
+</div></div>
+<p><img data-src="images/demidenko_multiverse.png" class="absolute" style="top: 5%; left: 40%; height: 80%; "></p>
+<div class="absolute" style="text-align: center;top: 80%; left: 20%; ">
+<p>Demidenko et al., 2024</p>
 </div>
 </section>
 <section id="section-23" class="slide level2">
 <h2></h2>
 <div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
-<p>How many of you have been trained in software engineering?</p>
+<p>How many of you have written computer code in the course of your research?</p>
 </div>
 </section>
 <section id="section-24" class="slide level2">
+<h2></h2>
+<div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
+<p>How many of you have been trained in software engineering?</p>
+</div>
+</section>
+<section id="section-25" class="slide level2">
 <h2></h2>
 <div class="absolute" style="font-size: 1.5em; text-align: center;top: 30%; width: 100%; ">
 <p>How many of you have ever written a test for your code?</p>
@@ -648,7 +710,7 @@ Botvinik-Nezer et al., 2020, *Nature*
 <h2>Software errors are a threat to reproducibility</h2>
 <p><img data-src="images/chang_abstracts.png" class="absolute" style="top: 20%; left: 15%; height: 80%; "></p>
 </section>
-<section id="section-25" class="slide level2">
+<section id="section-26" class="slide level2">
 <h2></h2>
 <p><img data-src="images/chang_retraction.png" class="absolute" style="top: 0%; left: 10%; height: 100%; "></p>
 </section>
@@ -839,7 +901,7 @@ data[:,test]</code></pre>
 <p>https://github.com/poldrack/pytest_tutorial</p>
 </div>
 </section>
-<section id="section-26" class="slide level2">
+<section id="section-27" class="slide level2">
 <h2></h2>
 <p><img data-src="images/plosone_title.png" class="absolute" style="top: 0%; left: 0%; width: 50%; "></p>
 <div class="absolute" style="font-size: 1.2em; text-align: left;top: 40%; left: 0%; width: 100%; ">
@@ -847,7 +909,7 @@ data[:,test]</code></pre>
 <p>Specifically, the statement on page 9 “age turned out not to correlate with any of the indicator variables” is incorrect. It should read instead “age correlated significantly with 3 latent indicator variables (Vaccinations: .219, p &lt; .0001; Conservatism: .169, p &lt; .001; Conspiracist ideation: -.140, maximum likelihood p &lt; .0001, bootstrapped p = .004), and straddled significance for a fourth (Free Market: .08, p%.05).”</p>
 </div>
 </section>
-<section id="section-27" class="slide level2">
+<section id="section-28" class="slide level2">
 <h2></h2>
 <div class="absolute" style="font-size: 1.5em;top: 10%; left: 0%; height: 70%; ">
 <pre><code>In [1]: age=32757
@@ -888,7 +950,7 @@ AssertionError:</code></pre>
 <h2>Automated testing</h2>
 <p><img data-src="images/github_actions_output.png" class="absolute" style="top: 10%; left: 10%; height: 80%; "></p>
 </section>
-<section id="section-28" class="slide level2">
+<section id="section-29" class="slide level2">
 <h2></h2>
 <p><img data-src="images/bcbs_cover.png" class="absolute" style="top: 0%; left: 15%; height: 60%; "></p>
 <div class="absolute" style="text-align: center;top: 75%; left: 0%; width: 100%; ">
@@ -939,7 +1001,7 @@ AssertionError:</code></pre>
 <li>The tools that you will learn at Neurohackademy will help you do better science!</li>
 </ul>
 </section>
-<section id="section-29" class="slide level2">
+<section id="section-30" class="slide level2">
 <h2></h2>
 <p><img data-src="images/poldracklab_acknowledgments.png" class="absolute" style="top: 0%; left: 0%; height: 90%; "></p>
 

@@ -329,22 +329,50 @@
     "text": "How to improve analytic reproducibility"
   },
   {
+    "objectID": "talk.html#multiverse-analysis",
+    "href": "talk.html#multiverse-analysis",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
+    "section": "Multiverse analysis",
+    "text": "Multiverse analysis\n\n\n\nIf the same dataset is analyzed in different ways, do we get the same answer?\n\nPrevious work shows large effects of different analysis workflows\n“Vibration of effects” (Ioannidis)\n\n\n\n\n\nSteegen et al., 2016"
+  },
+  {
+    "objectID": "talk.html#a-multiverse-example-are-there-analytic-choices-that-consistently-improve-test-retest-reliability",
+    "href": "talk.html#a-multiverse-example-are-there-analytic-choices-that-consistently-improve-test-retest-reliability",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
+    "section": "A multiverse example: Are there analytic choices that consistently improve test-retest reliability?",
+    "text": "A multiverse example: Are there analytic choices that consistently improve test-retest reliability?\n\n\n\nTest-retest reliability is essential for individual difference analyses\nPrevious work has shown low but variable reliability\nHow does this relate to analytic choices?\n\n\n\n\nElliott et al., 2020"
+  },
+  {
+    "objectID": "talk.html#multiverse-analysis-of-mid-reliability",
+    "href": "talk.html#multiverse-analysis-of-mid-reliability",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
+    "section": "Multiverse analysis of MID reliability",
+    "text": "Multiverse analysis of MID reliability\n\n\nDemidenko et al., 2024"
+  },
+  {
     "objectID": "talk.html#section-22",
     "href": "talk.html#section-22",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
-    "text": "How many of you have written computer code in the course of your research?"
+    "text": "Tested effects of several analytic choices over 240 pipelines\n\nSmoothing\nMotion modeling\nModel specification\nContrast specification\n\nOverall, reliability was low\n\nBut it varied substantially across models and contrasts\n\n\n\n\n\nDemidenko et al., 2024"
   },
   {
     "objectID": "talk.html#section-23",
     "href": "talk.html#section-23",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
-    "text": "How many of you have been trained in software engineering?"
+    "text": "How many of you have written computer code in the course of your research?"
   },
   {
     "objectID": "talk.html#section-24",
     "href": "talk.html#section-24",
+    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
+    "section": "",
+    "text": "How many of you have been trained in software engineering?"
+  },
+  {
+    "objectID": "talk.html#section-25",
+    "href": "talk.html#section-25",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "How many of you have ever written a test for your code?"
@@ -448,15 +476,15 @@
     "text": "Software testing\n\nSmoke tests\n\nDoes everything run without exploding?\n\nSanity checks\n\nAre values within reasonable ranges?\n\nUnit tests\n\nDoes the function do what it is supposed to do?\n\n\n\nhttps://github.com/poldrack/pytest_tutorial"
   },
   {
-    "objectID": "talk.html#section-26",
-    "href": "talk.html#section-26",
+    "objectID": "talk.html#section-27",
+    "href": "talk.html#section-27",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "The dataset included two notable age outliers (reported ages 5 and 32757).\nSpecifically, the statement on page 9 “age turned out not to correlate with any of the indicator variables” is incorrect. It should read instead “age correlated significantly with 3 latent indicator variables (Vaccinations: .219, p &lt; .0001; Conservatism: .169, p &lt; .001; Conspiracist ideation: -.140, maximum likelihood p &lt; .0001, bootstrapped p = .004), and straddled significance for a fourth (Free Market: .08, p%.05).”"
   },
   {
-    "objectID": "talk.html#section-27",
-    "href": "talk.html#section-27",
+    "objectID": "talk.html#section-28",
+    "href": "talk.html#section-28",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "In [1]: age=32757\n\nIn [2]: assert age&gt;12 and age&lt;120\n------------------------------------------------\nAssertionError                            Traceback (most recent call last)\n&lt;ipython-input-2-37de876b5fda&gt; in &lt;module&gt;()\n----&gt; 1 assert age&gt;12 and age&lt;120\n\nAssertionError:"
@@ -490,8 +518,8 @@
     "text": "Automated testing"
   },
   {
-    "objectID": "talk.html#section-28",
-    "href": "talk.html#section-28",
+    "objectID": "talk.html#section-29",
+    "href": "talk.html#section-29",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
     "text": "https://poldrack.github.io/BetterCodeBetterScience\nNew testing sections daily this week at https://russpoldrack.substack.com/"

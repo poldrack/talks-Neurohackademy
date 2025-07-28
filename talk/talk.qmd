@@ -558,7 +558,74 @@ Botvinik-Nezer et al., 2020, *Nature*
 ![](images/blind_analysis.png){.absolute top="50%" left="0%" height="45%"}
 ![](images/simulated_data_gelman.png){.absolute top="30%" left="50%" width="45%"}
 
+
+## Multiverse analysis
+
+
+:::: {.columns}
+::: {.column width="30%"}
+* If the same dataset is analyzed in different ways, do we get the same answer?
+  * Previous work shows large effects of different analysis workflows
+  * “Vibration of effects” (Ioannidis)
+
+:::
+::::
+
+
+![](images/steegen.png){.absolute top="10%" left="40%" height="60%"}
+
+::: {.absolute top=80% left="60%" style="text-align: center;"}
+Steegen et al., 2016
+:::
+
+## A multiverse example: Are there analytic choices that consistently improve test-retest reliability?
+
+:::: {.columns}
+::: {.column width="30%"}
+* Test-retest reliability is essential for individual difference analyses
+* Previous work has shown low but variable reliability
+* How does this relate to analytic choices?
+:::
+::::
+
+
+![](images/elliott.png){.absolute top="20%" left="35%" height="50%"}
+
+::: {.absolute top=80% left="60%" style="text-align: center;"}
+Elliott et al., 2020
+:::
+
+## Multiverse analysis of MID reliability
+
+![](images/mid_reliability.png){.absolute top="10%" left="1%" height="70%"}
+
+::: {.absolute top=80% left="60%" style="text-align: center;"}
+Demidenko et al., 2024
+:::
+
+
 ##
+
+:::: {.columns}
+::: {.column width="30%"}
+* Tested effects of several analytic choices over 240 pipelines
+  * Smoothing
+  * Motion modeling
+  * Model specification
+  * Contrast specification
+* Overall, reliability was low
+  * But it varied substantially across models and contrasts
+:::
+::::
+
+
+![](images/demidenko_multiverse.png){.absolute top="5%" left="40%" height="80%"}
+
+::: {.absolute top=80% left="20%" style="text-align: center;"}
+Demidenko et al., 2024
+:::
+
+## 
 
 ::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
 How many of you have written computer code in the course of your research?
@@ -569,6 +636,7 @@ How many of you have written computer code in the course of your research?
 ::: {.absolute top=30% width="100%" style="font-size: 1.5em; text-align: center;"}
 How many of you have been trained in software engineering?
 :::
+
 
 ##
 
