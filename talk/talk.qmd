@@ -99,13 +99,13 @@ How can we fix it?
 
 ## Designing a more reproducible scientific enterprise
 
-![](images/papercutter.png){.absolute top="20%" left="0%" width="45%"}
+![](images/papercutter.png){.absolute top="15%" left="0%" width="45%"}
 
 ## Designing a more reproducible scientific enterprise
 
-![](images/papercutter.png){.absolute top="20%" left="0%" width="45%"}
+![](images/papercutter.png){.absolute top="15%" left="0%" width="45%"}
 
-![](images/norman_cover.png){.absolute top="20%" left="60%" width="30%"}
+![](images/norman_cover.png){.absolute top="15%" left="60%" width="30%"}
 
 
 ##
@@ -134,7 +134,7 @@ How can we fix it?
 ::::
 
 
-![](images/nudge.png){.absolute top="10%" left="60%" height="70%"}
+![](images/nudge.png){.absolute top="15%" left="60%" height="70%"}
 
 ##
 
@@ -147,9 +147,9 @@ How can we fix it?
 
 ## Neuroscience research is badly underpowered
 
-![](images/button_title.png){.absolute top="20%" left="0%" width="40%"}
-![](images/button_journal.png){.absolute top="45%" left="5%" width="30%"}
-![](images/button_figure.png){.absolute top="55%" left="0%" width="45%"}
+![](images/button_title.png){.absolute top="15%" left="0%" width="40%"}
+![](images/button_journal.png){.absolute top="40%" left="5%" width="30%"}
+![](images/button_figure.png){.absolute top="50%" left="0%" width="45%"}
 
 
 ![](images/dumas_title.png){.absolute top="10%" left="55%" height="35%"}
@@ -159,10 +159,10 @@ How can we fix it?
 ## Low power -> unreliable science
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="55%"}
 Positive Predictive Value (PPV): The probability that a positive result is true
 :::
-::: {.column width="50%"}
+::: {.column width="45%"}
 Winner’s Curse: overestimation of effect sizes for significant results
 :::
 ::::
@@ -170,7 +170,7 @@ Winner’s Curse: overestimation of effect sizes for significant results
 
 ![](images/ppv_by_power.png){.absolute top="35%" left="00%" width="40%"}
 
-![](images/winners_curse.png){.absolute top="30%" left="50%" width="40%"}
+![](images/winners_curse.png){.absolute top="30%" left="55%" width="40%"}
 
 ::: {.absolute top=90% left=38% style="text-align: center;"}
 Button et al, 2013
@@ -201,7 +201,7 @@ Marek et al., 2022
 
 ## Candidate gene associations fail in well-powered GWAS
 
-![](images/stein_plot.png){.absolute top="20%" left="60%" width="35%"}
+![](images/stein_plot.png){.absolute top="20%" left="60%" width="30%"}
 
 ![](images/stein_title.png){.absolute top="10%" left="0%" width="80%"}
 
@@ -606,7 +606,7 @@ Elliott et al., 2020
 
 ![](images/mid_reliability.png){.absolute top="10%" left="1%" height="70%"}
 
-::: {.absolute top=80% left="60%" style="text-align: center;"}
+::: {.absolute top=85% left="70%" style="text-align: center;"}
 Demidenko et al., 2024
 :::
 
@@ -628,7 +628,7 @@ Demidenko et al., 2024
 
 ![](images/demidenko_multiverse.png){.absolute top="5%" left="40%" height="80%"}
 
-::: {.absolute top=80% left="20%" style="text-align: center;"}
+::: {.absolute top=85% left="70%" style="text-align: center;"}
 Demidenko et al., 2024
 :::
 
@@ -709,14 +709,14 @@ if trainsvm:
 http://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html
 :::
 
-::: {.absolute top=47% left="65%" style="font-size: 1.5em;"}
+::: {.absolute top=49% left="65%" style="font-size: 1.5em;"}
 ```
 data[:,train]
 data[:,test]
 ```
 :::
 
-::: {.absolute top=65% height="70%" left="65%" style="font-size: 1.5em;"}
+::: {.absolute top=68% height="70%" left="65%" style="font-size: 1.5em;"}
 **Results: 53% accuracy**
 :::
 
@@ -900,6 +900,8 @@ https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
 
 ::: {.absolute top="75%" left="0%" width="100%" style="text-align: center;"}
 https://bettercodebetterscience.github.io/book/
+
+More about AI-assisted coding tomorrow!
 :::
 
 
