@@ -709,14 +709,14 @@ if trainsvm:
 http://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html
 :::
 
-::: {.absolute top=49% left="65%" style="font-size: 1.5em;"}
+::: {.absolute top=50% left="65%" style="font-size: 1.5em;"}
 ```
 data[:,train]
 data[:,test]
 ```
 :::
 
-::: {.absolute top=68% height="70%" left="65%" style="font-size: 1.5em;"}
+::: {.absolute top=66% height="70%" left="65%" style="font-size: 1.5em;"}
 **Results: 53% accuracy**
 :::
 
@@ -802,11 +802,11 @@ https://software-carpentry.org
 
 ## Code quality analysis and repair
 
-- Static analysis (pylint, flake8, etc)
+- Static analysis (ruff, flake8, etc)
   - Checks for errors and adherence to Python style guidelines
   - Can be run automatically within editor any time code is saved
 - Automated formatting tools can help ensure good code formatting
-  - black/blue for Python
+  - ruff/black/blue for Python
 - Collaborator: “Fixing the style made your code so much easier to read!”
 
 ![](images/pylint.png){.absolute top="40%" left="0%" width="80%"}
@@ -873,6 +873,7 @@ AssertionError:
 - Write test cases based on the intended behavior of the code
 - Run tests and continue to modify code until the tests pass
 - Add tests for any new requirements
+- Especially good when coding with AI agents - more tomorrow!
 :::
 ::::
 
@@ -882,6 +883,7 @@ AssertionError:
 https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
 :::
 
+<!--
 ## Automated testing
 
 ![](images/github_actions.png){.absolute top="10%" left="10%" height="80%"}
@@ -893,6 +895,8 @@ https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
 ## Automated testing
 
 ![](images/github_actions_output.png){.absolute top="10%" left="10%" height="80%"}
+
+-->
 
 ## 
 

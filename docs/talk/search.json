@@ -452,7 +452,7 @@
     "href": "talk.html#code-quality-analysis-and-repair",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Code quality analysis and repair",
-    "text": "Code quality analysis and repair\n\nStatic analysis (pylint, flake8, etc)\n\nChecks for errors and adherence to Python style guidelines\nCan be run automatically within editor any time code is saved\n\nAutomated formatting tools can help ensure good code formatting\n\nblack/blue for Python\n\nCollaborator: “Fixing the style made your code so much easier to read!”"
+    "text": "Code quality analysis and repair\n\nStatic analysis (ruff, flake8, etc)\n\nChecks for errors and adherence to Python style guidelines\nCan be run automatically within editor any time code is saved\n\nAutomated formatting tools can help ensure good code formatting\n\nruff/black/blue for Python\n\nCollaborator: “Fixing the style made your code so much easier to read!”"
   },
   {
     "objectID": "talk.html#code-review",
@@ -487,28 +487,7 @@
     "href": "talk.html#test-driven-development",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "Test-driven development",
-    "text": "Test-driven development\n\n\n\nWrite test cases based on the intended behavior of the code\nRun tests and continue to modify code until the tests pass\nAdd tests for any new requirements\n\n\n\n\nhttps://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd"
-  },
-  {
-    "objectID": "talk.html#automated-testing",
-    "href": "talk.html#automated-testing",
-    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
-    "section": "Automated testing",
-    "text": "Automated testing"
-  },
-  {
-    "objectID": "talk.html#automated-testing-1",
-    "href": "talk.html#automated-testing-1",
-    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
-    "section": "Automated testing",
-    "text": "Automated testing"
-  },
-  {
-    "objectID": "talk.html#automated-testing-2",
-    "href": "talk.html#automated-testing-2",
-    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
-    "section": "Automated testing",
-    "text": "Automated testing"
+    "text": "Test-driven development\n\n\n\nWrite test cases based on the intended behavior of the code\nRun tests and continue to modify code until the tests pass\nAdd tests for any new requirements\nEspecially good when coding with AI agents - more tomorrow!\n\n\n\n\nhttps://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd"
   },
   {
     "objectID": "talk.html#section-29",

@@ -760,11 +760,11 @@ if trainsvm:
 <div class="absolute" style="text-align: center;top: 90%; width: 100%; ">
 <p>http://www.russpoldrack.org/2013/02/anatomy-of-coding-error.html</p>
 </div>
-<div class="absolute" style="font-size: 1.5em;top: 49%; left: 65%; ">
+<div class="absolute" style="font-size: 1.5em;top: 50%; left: 65%; ">
 <pre><code>data[:,train]
 data[:,test]</code></pre>
 </div>
-<div class="absolute" style="font-size: 1.5em;top: 68%; left: 65%; height: 70%; ">
+<div class="absolute" style="font-size: 1.5em;top: 66%; left: 65%; height: 70%; ">
 <p><strong>Results: 53% accuracy</strong></p>
 </div>
 </section>
@@ -858,14 +858,14 @@ data[:,test]</code></pre>
 <section id="code-quality-analysis-and-repair" class="slide level2">
 <h2>Code quality analysis and repair</h2>
 <ul>
-<li>Static analysis (pylint, flake8, etc)
+<li>Static analysis (ruff, flake8, etc)
 <ul>
 <li>Checks for errors and adherence to Python style guidelines</li>
 <li>Can be run automatically within editor any time code is saved</li>
 </ul></li>
 <li>Automated formatting tools can help ensure good code formatting
 <ul>
-<li>black/blue for Python</li>
+<li>ruff/black/blue for Python</li>
 </ul></li>
 <li>Collaborator: “Fixing the style made your code so much easier to read!”</li>
 </ul>
@@ -936,24 +936,27 @@ AssertionError:</code></pre>
 <li>Write test cases based on the intended behavior of the code</li>
 <li>Run tests and continue to modify code until the tests pass</li>
 <li>Add tests for any new requirements</li>
+<li>Especially good when coding with AI agents - more tomorrow!</li>
 </ul>
 </div></div>
 <p><img data-src="images/TDD-1-640x770.png" class="absolute" style="top: 0%; left: 55%; width: 40%; "></p>
 <div class="absolute" style="font-size: 0.8em;top: 90%; left: 55%; ">
 <p>https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd</p>
 </div>
-</section>
-<section id="automated-testing" class="slide level2">
-<h2>Automated testing</h2>
-<p><img data-src="images/github_actions.png" class="absolute" style="top: 10%; left: 10%; height: 80%; "></p>
-</section>
-<section id="automated-testing-1" class="slide level2">
-<h2>Automated testing</h2>
-<p><img data-src="images/github_actions_workflow.png" class="absolute" style="top: 10%; left: 10%; height: 80%; "></p>
-</section>
-<section id="automated-testing-2" class="slide level2">
-<h2>Automated testing</h2>
-<p><img data-src="images/github_actions_output.png" class="absolute" style="top: 10%; left: 10%; height: 80%; "></p>
+<!--
+## Automated testing
+
+![](images/github_actions.png){.absolute top="10%" left="10%" height="80%"}
+
+## Automated testing
+
+![](images/github_actions_workflow.png){.absolute top="10%" left="10%" height="80%"}
+
+## Automated testing
+
+![](images/github_actions_output.png){.absolute top="10%" left="10%" height="80%"}
+
+-->
 </section>
 <section id="section-29" class="slide level2">
 <h2></h2>
