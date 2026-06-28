@@ -210,13 +210,6 @@
     "text": "“data collection and analysis methods were highly flexible across studies, with nearly as many unique analysis pipelines as there were studies in the sample [241].”"
   },
   {
-    "objectID": "talk.html#machine-learning-can-make-it-worse",
-    "href": "talk.html#machine-learning-can-make-it-worse",
-    "title": "Reproducibility in cognitive neuroscience: What is the problem?",
-    "section": "Machine learning can make it worse",
-    "text": "Machine learning can make it worse\n \n\n“In this article, we use Support Vector Machine (SVM) classifiers, and genetic algorithms to demonstrate the ease by which overfitting can occur, despite the use of cross validation. We demonstrate that comparable and non-generalizable results can be obtained on informative and non-informative (i.e. random) data by iteratively modifying hyperparameters in seemingly innocuous ways.”"
-  },
-  {
     "objectID": "talk.html#its-not-just-fmri",
     "href": "talk.html#its-not-just-fmri",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
