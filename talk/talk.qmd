@@ -16,6 +16,10 @@ format:
     height: 1080
     width: 1920
     code-fold: false
+  pptx:
+    height: 1080
+    width: 1920
+
 
 ---
 
@@ -213,11 +217,11 @@ Jason stein et al. for the ENIGMA Consortium
 
 ## How well powered are fMRI studies?
 
-![](images/Figure1_2023.png){.absolute top="10%" left="5%" width="80%"}
+![](images/Figure1_2025.png){.absolute top="10%" left="5%" width="80%"}
 
 
 ::: {.absolute top=75% left=0% style="text-align: left;"}
-- Median study in 2024 (n=36/group) was powered to find a single 200 voxel activation with d~0.67
+- Median study in 2025 (n=38/group) was powered to find a single 200 voxel activation with d~0.65
 - Is that plausible?
 :::
 
@@ -342,6 +346,7 @@ Poldrack et al., 2017
 ![](images/carp_variability_title.png){.absolute top="0%" left="0%" height="25%"}
 ![](images/carp_variability_result.png){.absolute top="30%" left="5%" width="85%"}
 
+<!--
 ## Machine learning can make it worse
 
 
@@ -351,6 +356,8 @@ Poldrack et al., 2017
 ::: {.absolute top=40% left=0% width="50%" style="text-align: left;"}
 "In this article, we use Support Vector Machine (SVM) classifiers, and genetic algorithms to demonstrate the ease by which overfitting can occur, despite the use of cross validation. We demonstrate that comparable and non-generalizable results can be obtained on informative and non-informative (i.e. random) data by iteratively modifying hyperparameters in seemingly innocuous ways."
 :::
+
+-->
 
 ## It's not just fMRI
 ![](images/luck_title.png){.absolute top="10%" left="0%" height="35%"}
@@ -892,9 +899,7 @@ https://www.browserstack.com/guide/tdd-vs-bdd-vs-atdd
 ![](images/bcbs_cover.png){.absolute top="0%" left="15%" height="60%"}
 
 ::: {.absolute top="75%" left="0%" width="100%" style="text-align: center;"}
-https://poldrack.github.io/BetterCodeBetterScience
-
-New testing sections daily this week at https://russpoldrack.substack.com/
+https://bettercodebetterscience.github.io/book/
 :::
 
 

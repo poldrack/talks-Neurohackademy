@@ -116,7 +116,7 @@
     "href": "talk.html#how-well-powered-are-fmri-studies",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "How well powered are fMRI studies?",
-    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2024 (n=36/group) was powered to find a single 200 voxel activation with d~0.67\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
+    "text": "How well powered are fMRI studies?\n\n\n\nMedian study in 2025 (n=38/group) was powered to find a single 200 voxel activation with d~0.65\nIs that plausible?\n\n\n\nUpdated from Poldrack et al., 2017"
   },
   {
     "objectID": "talk.html#estimating-realistic-effect-sizes",
@@ -522,7 +522,7 @@
     "href": "talk.html#section-29",
     "title": "Reproducibility in cognitive neuroscience: What is the problem?",
     "section": "",
-    "text": "https://poldrack.github.io/BetterCodeBetterScience\nNew testing sections daily this week at https://russpoldrack.substack.com/"
+    "text": "https://bettercodebetterscience.github.io/book/"
   },
   {
     "objectID": "talk.html#reproducibility-vs.-validity",
